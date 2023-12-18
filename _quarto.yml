@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Kirjallisuuskatsauksen ohje"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - href: index.qmd
+        text: Etusivu
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    css: styles.css
+    toc: true
+
+editor: visual
+

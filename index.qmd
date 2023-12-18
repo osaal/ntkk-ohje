@@ -1,0 +1,9 @@
+---
+title: "Kirjallisuuskatsauksen ohje"
+---
+
+Tämä verkkosivu sisältää *Nollatoleranssi*-hankkeen systemaattisen kirjallisuuskatsauksen ohjeen. Sivuston sisältö on tarkoitettu hankkeen sisäiseen työskentelyyn, eikä sitä tulisi jakaa eteenpäin tai käyttää muissa yhteyksissä.
+
+Navigoi pääsivuittain ylhäällä olevasta navigointipaneelista. Jokaisen pääsivun alla on yksi tai useampi alasivu, jotka näkyvät sekä yläpalkista esille tulevasta navigointilistasta että vasemmalla sivunavigoinnissa.
+
+Jos huomaat virheitä tai syntyy kysyttävää, ota yhteyttä sivun ylläpitäjään, Oliver Saaliin.
