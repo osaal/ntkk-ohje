@@ -1,3 +1,67 @@
----
-title: "Kriteeristö"
----
+# Kriteeristö {#sec-kriteeristo}
+
+Hankkeessa sovelletaan kahta kriteeristöä: kaikille yleiset kriteerit sekä hakukohtaiset kriteerit.
+
+Yleiset kriteerit ovat listattuna alla, @tbl-kriteeristo-yleinen.
+
++------------------+----------------------------------------------------------------------------+-------------------------------------------------+
+| Rajaus           | Inkluusiokriteeri                                                          | Ekskluusiokriteeri                              |
++==================+============================================================================+=================================================+
+| **Julkaisuaika** | 1.1.2010 - 30.9.2023                                                       | Julkaistu ennen 1.1.2010                        |
+|                  |                                                                            |                                                 |
+|                  |                                                                            | Julkaistu 30.9.2023 jälkeen                     |
++------------------+----------------------------------------------------------------------------+-------------------------------------------------+
+| **Metodologia**  | Empiirinen tutkimus laajasti ymmärrettynä:                                 | Ei-empiirinen tutkimus tai metatutkimus, kuten: |
+|                  |                                                                            |                                                 |
+|                  | -   Kvalitatiiviset tutkimusasetelmat (mm. haastattelut, havainnot)        | -   Teoreettiset analyysit                      |
+|                  |                                                                            |                                                 |
+|                  | -   Kvantitatiiviset tutkimusasetelmat (mm. rekisterit, kyselytutkimukset) | -   Käsiteanalyysit                             |
+|                  |                                                                            |                                                 |
+|                  | -   Toimintatutkimukset                                                    | -   Keskustelunavaukset                         |
+|                  |                                                                            |                                                 |
+|                  |                                                                            | -   Historialliset selvitykset                  |
+|                  |                                                                            |                                                 |
+|                  |                                                                            | -   Kirjallisuuskatsaukset                      |
+|                  |                                                                            |                                                 |
+|                  |                                                                            | -   Meta-analyysit                              |
++------------------+----------------------------------------------------------------------------+-------------------------------------------------+
+
+: Hakuprosessille yhteiset hakurajaukset {#tbl-kriteeristo-yleinen}
+
+Näiden lisäksi meillä on käytössä jokaiselle haulle oma kriteeristö, @tbl-kriteeristo-hakukohtaiset.
+
++----------------+---------------------------------------+----------------------------------+---------------------------------------+----------------------------------+---------------------------------------+---------------------------------------+
+| Rajaus         | Haku 1                                | Haku 2                           | Haku 3                                | Haku 4                           | Haku 5                                | Haku 6                                |
++================+=======================================+==================================+=======================================+==================================+=======================================+=======================================+
+| Kohderyhmä     | Pelastustoimi                         | Pelastustoimi                    | Ensihoito                             | Ensihoito                        | Muut turvallisuustoimijat             | Pelastustoimi ja ensihoito            |
++----------------+---------------------------------------+----------------------------------+---------------------------------------+----------------------------------+---------------------------------------+---------------------------------------+
+| Maantiede      | Suomi ja Ahvenanmaa                   | Suomi ja Ahvenanmaa              | Suomi ja Ahvenanmaa                   | Suomi ja Ahvenanmaa              | Suomi ja Ahvenanmaa                   | Eurooppa                              |
++----------------+---------------------------------------+----------------------------------+---------------------------------------+----------------------------------+---------------------------------------+---------------------------------------+
+| Tutkimuskieli  | Suomi, ruotsi, englanti               | Suomi, ruotsi, englanti          | Suomi, ruotsi, englanti               | Suomi, ruotsi, englanti          | Suomi, ruotsi, englanti               | Englanti                              |
++----------------+---------------------------------------+----------------------------------+---------------------------------------+----------------------------------+---------------------------------------+---------------------------------------+
+| Aineistotyyppi | -   Vertaisarvioidut tutkimusraportit | -   Opinnäytteet                 | -   Vertaisarvioidut tutkimusraportit | -   Opinnäytteet                 | -   Vertaisarvioidut tutkimusraportit | -   Vertaisarvioidut tutkimusraportit |
+|                |                                       |                                  |                                       |                                  |                                       |                                       |
+|                | -   Viranomaisraportit                |                                  | -   Viranomaisraportit                |                                  | -   Viranomaisraportit                |                                       |
+|                |                                       |                                  |                                       |                                  |                                       |                                       |
+|                | -   Yhdistysten tutkimusraportit      |                                  | -   Yhdistysten tutkimusraportit      |                                  |                                       |                                       |
++----------------+---------------------------------------+----------------------------------+---------------------------------------+----------------------------------+---------------------------------------+---------------------------------------+
+| Tietokannat    | -   SPEK:in julkaisut                 | -   Theseus                      | -   SPEK:in julkaisut                 | -   Theseus                      | -   Polamk:in julkaisut               | -   Scopus                            |
+|                |                                       |                                  |                                       |                                  |                                       |                                       |
+|                | -   Pelastusopiston julkaisut         | -   Yliopistojen julkaisukanavat | -   Pelastusopiston julkaisut         | -   Yliopistojen julkaisukanavat | -   Valto                             | -   Web of Science                    |
+|                |                                       |                                  |                                       |                                  |                                       |                                       |
+|                | -   Valto                             |                                  | -   Valto                             |                                  | -   Scopus                            | -   ProQuest                          |
+|                |                                       |                                  |                                       |                                  |                                       |                                       |
+|                | -   Scopus                            |                                  | -   Scopus                            |                                  | -   Web of Science                    | -   BASE                              |
+|                |                                       |                                  |                                       |                                  |                                       |                                       |
+|                | -   Web of Science                    |                                  | -   Web of Science                    |                                  | -   ProQuest                          | -   OpenAlex                          |
+|                |                                       |                                  |                                       |                                  |                                       |                                       |
+|                | -   ProQuest                          |                                  | -   ProQuest                          |                                  | -   BASE                              |                                       |
+|                |                                       |                                  |                                       |                                  |                                       |                                       |
+|                | -   BASE                              |                                  | -   BASE                              |                                  | -   OpenAlex                          |                                       |
+|                |                                       |                                  |                                       |                                  |                                       |                                       |
+|                | -   OpenAlex                          |                                  | -   OpenAlex                          |                                  |                                       |                                       |
++----------------+---------------------------------------+----------------------------------+---------------------------------------+----------------------------------+---------------------------------------+---------------------------------------+
+
+: Hakukohtaiset hakurajaukset {#tbl-kriteeristo-hakukohtaiset}
+
+Tämän sivun alasivuilla käydään läpi jokainen kriteeri erillisin huomautuksin. Käytännön suorittaminen löytyy luvusta [-@sec-hakujen-suorittaminen].

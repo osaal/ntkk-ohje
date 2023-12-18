@@ -24,6 +24,13 @@ website:
       collapse-level: 2
       contents:
         - kriteeristo.qmd
+        - krit-aika.qmd
+        - krit-metodologia.qmd
+        - krit-kohderyhma.qmd
+        - krit-maantiede.qmd
+        - krit-tutkimuskieli.qmd
+        - krit-aineistotyyppi.qmd
+        - krit-tietokannat.qmd
         
     - id: tietolahteet
       title: "Tietolähteet"
@@ -52,6 +59,9 @@ format:
       - custom.scss
     css: styles.css
     toc: true
+    lang: fi
+    crossref:
+      chapters: true
 
 editor: visual
 

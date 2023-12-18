@@ -1,9 +1,93 @@
 [
   {
+    "objectID": "tietolahteet.html",
+    "href": "tietolahteet.html",
+    "title": "Tietolähteet",
+    "section": "",
+    "text": "Tietolähteet"
+  },
+  {
+    "objectID": "krit-tutkimuskieli.html",
+    "href": "krit-tutkimuskieli.html",
+    "title": "Tutkimuskieli",
+    "section": "",
+    "text": "Tutkimuskieli"
+  },
+  {
+    "objectID": "krit-metodologia.html",
+    "href": "krit-metodologia.html",
+    "title": "Metodologia",
+    "section": "",
+    "text": "Metodologia"
+  },
+  {
+    "objectID": "krit-kohderyhma.html",
+    "href": "krit-kohderyhma.html",
+    "title": "Kohderyhmä",
+    "section": "",
+    "text": "Kohderyhmä"
+  },
+  {
+    "objectID": "krit-aika.html",
+    "href": "krit-aika.html",
+    "title": "Julkaisuaika",
+    "section": "",
+    "text": "Julkaisuaika"
+  },
+  {
+    "objectID": "hakulausekkeet.html",
+    "href": "hakulausekkeet.html",
+    "title": "Hakulausekkeet",
+    "section": "",
+    "text": "Hakulausekkeet"
+  },
+  {
+    "objectID": "dokumentointi.html",
+    "href": "dokumentointi.html",
+    "title": "Dokumentointi",
+    "section": "",
+    "text": "Dokumentointi"
+  },
+  {
+    "objectID": "hakeminen.html",
+    "href": "hakeminen.html",
+    "title": "Hakujen suorittaminen",
+    "section": "",
+    "text": "Hakujen suorittaminen"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Kirjallisuuskatsauksen ohje",
     "section": "",
     "text": "Tämä verkkosivu sisältää Nollatoleranssi-hankkeen systemaattisen kirjallisuuskatsauksen ohjeen. Sivuston sisältö on tarkoitettu hankkeen sisäiseen työskentelyyn, eikä sitä tulisi jakaa eteenpäin tai käyttää muissa yhteyksissä.\nNavigoi pääsivuittain ylhäällä olevasta navigointipaneelista. Jokaisen pääsivun alla on yksi tai useampi alasivu, jotka näkyvät sekä yläpalkista esille tulevasta navigointilistasta että vasemmalla sivunavigoinnissa.\nJos huomaat virheitä tai syntyy kysyttävää, ota yhteyttä sivun ylläpitäjään, Oliver Saaliin."
+  },
+  {
+    "objectID": "krit-aineistotyyppi.html",
+    "href": "krit-aineistotyyppi.html",
+    "title": "Aineistotyyppi",
+    "section": "",
+    "text": "Aineistotyyppi"
+  },
+  {
+    "objectID": "krit-maantiede.html",
+    "href": "krit-maantiede.html",
+    "title": "Maantiede",
+    "section": "",
+    "text": "Maantiede"
+  },
+  {
+    "objectID": "krit-tietokannat.html",
+    "href": "krit-tietokannat.html",
+    "title": "Tietokannat",
+    "section": "",
+    "text": "Tietokannat"
+  },
+  {
+    "objectID": "kriteeristo.html",
+    "href": "kriteeristo.html",
+    "title": "Kriteeristö",
+    "section": "",
+    "text": "Kriteeristö\nHankkeessa sovelletaan kahta kriteeristöä: kaikille yleiset kriteerit sekä hakukohtaiset kriteerit.\nYleiset kriteerit ovat listattuna alla, Taulukko 1.1.\n\n\nTaulukko 1.1: Hakuprosessille yhteiset hakurajaukset\n\n\n\n\n\n\n\nRajaus\nInkluusiokriteeri\nEkskluusiokriteeri\n\n\n\n\nJulkaisuaika\n1.1.2010 - 30.9.2023\nJulkaistu ennen 1.1.2010\nJulkaistu 30.9.2023 jälkeen\n\n\nMetodologia\nEmpiirinen tutkimus laajasti ymmärrettynä:\n\nKvalitatiiviset tutkimusasetelmat (mm. haastattelut, havainnot)\nKvantitatiiviset tutkimusasetelmat (mm. rekisterit, kyselytutkimukset)\nToimintatutkimukset\n\nEi-empiirinen tutkimus tai metatutkimus, kuten:\n\nTeoreettiset analyysit\nKäsiteanalyysit\nKeskustelunavaukset\nHistorialliset selvitykset\nKirjallisuuskatsaukset\nMeta-analyysit\n\n\n\n\n\nNäiden lisäksi meillä on käytössä jokaiselle haulle oma kriteeristö, Taulukko 1.2.\n\n\nTaulukko 1.2: Hakukohtaiset hakurajaukset\n\n\n\n\n\n\n\n\n\n\n\nRajaus\nHaku 1\nHaku 2\nHaku 3\nHaku 4\nHaku 5\nHaku 6\n\n\n\n\nKohderyhmä\nPelastustoimi\nPelastustoimi\nEnsihoito\nEnsihoito\nMuut turvallisuustoimijat\nPelastustoimi ja ensihoito\n\n\nMaantiede\nSuomi ja Ahvenanmaa\nSuomi ja Ahvenanmaa\nSuomi ja Ahvenanmaa\nSuomi ja Ahvenanmaa\nSuomi ja Ahvenanmaa\nEurooppa\n\n\nTutkimuskieli\nSuomi, ruotsi, englanti\nSuomi, ruotsi, englanti\nSuomi, ruotsi, englanti\nSuomi, ruotsi, englanti\nSuomi, ruotsi, englanti\nEnglanti\n\n\nAineistotyyppi\n\nVertaisarvioidut tutkimusraportit\nViranomaisraportit\nYhdistysten tutkimusraportit\n\n\nOpinnäytteet\n\n\nVertaisarvioidut tutkimusraportit\nViranomaisraportit\nYhdistysten tutkimusraportit\n\n\nOpinnäytteet\n\n\nVertaisarvioidut tutkimusraportit\nViranomaisraportit\n\n\nVertaisarvioidut tutkimusraportit\n\n\n\nTietokannat\n\nSPEK:in julkaisut\nPelastusopiston julkaisut\nValto\nScopus\nWeb of Science\nProQuest\nBASE\nOpenAlex\n\n\nTheseus\nYliopistojen julkaisukanavat\n\n\nSPEK:in julkaisut\nPelastusopiston julkaisut\nValto\nScopus\nWeb of Science\nProQuest\nBASE\nOpenAlex\n\n\nTheseus\nYliopistojen julkaisukanavat\n\n\nPolamk:in julkaisut\nValto\nScopus\nWeb of Science\nProQuest\nBASE\nOpenAlex\n\n\nScopus\nWeb of Science\nProQuest\nBASE\nOpenAlex\n\n\n\n\n\nTämän sivun alasivuilla käydään läpi jokainen kriteeri erillisin huomautuksin. Käytännön suorittaminen löytyy luvusta ?@sec-hakujen-suorittaminen."
   }
 ]
