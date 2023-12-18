@@ -14,7 +14,7 @@ website:
       - sidebar:tietolahteet
       - sidebar:hakeminen
       - sidebar:dokumentointi
-      - sidebar:hakulausekkeet
+      - hakulausekkeet.qmd
   
   sidebar:
     - id: kriteeristo
@@ -46,11 +46,6 @@ website:
       title: "Dokumentointi"
       contents:
         - dokumentointi.qmd
-        
-    - id: hakulausekkeet
-      title: "Hakulausekkeet"
-      contents:
-        - hakulausekkeet.qmd
 
 format:
   html:

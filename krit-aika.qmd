@@ -1,1 +1,9 @@
 # Julkaisuaika {#sec-krit-aika}
+
+Tiedonhaussa käytetään seuraavaa julkaisuaikahaarukkaa: 1.1.2010 - 30.9.2023.
+
+Tämä koskee julkaisuaikaa, jolloin itse tutkimuksen toteutus voi olla tapahtunut myös ennen vuotta 2010. Tuona vuonna julkaistut tutkimukset todennäköisesti ovatkin keränneet materiaalinsa jopa vuosia ennen julkaisua, koska akateeminen julkaisuprosessi on hyvin hidas.
+
+Jos hakukone sallii päivämääräkohtaisen rajauksen, käytetään tarkkaa julkaisuaikahaarukkaa.
+
+Jos hakukone sallii vain vuositasoisen rajauksen, käytetään vuosia 2010-2023. Tuolloin seulonnassa poistetaan tutkimukset, jotka ovat julkaistu aikavälillä 1.10.-31.12.2023, sääntöjen samankaltaisuuden vuoksi. Harkinnanvaraisesti voidaan sisällyttää tällaisia tutkimuksia erikseen hakuprosessin päädyttyä, jos tutkimukset näyttäytyvät erittäin olennaisilta.

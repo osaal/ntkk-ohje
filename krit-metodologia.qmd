@@ -1,1 +1,21 @@
 # Metodologia {#sec-krit-metodologia}
+
+Hankkeessa rajataan tiedonhaku vain empiirisiin tutkimuksiin.
+
+Empiiriset tutkimukset voivat olla missä muodossa tahansa ja miltä alueelta tahansa, kunhan niihin sisältyy jonkin tapainen tiedonkeruu. Tämän rajauksen ymmärtää parhaiten ekskluusiokriteeristöstä, eli me emme tarkista:
+
+-   Teoreettisia analyyseja (joissa ei kerätä tietoa ihmisistä millään tavalla)
+
+-   Käsiteanalyyseja (joissa mietitään vain sanastoa tai käsitteitä, mutta ei sovelleta sanastoa empiirisesti kohderyhmiimme)
+
+-   Keskustelunavaukset (jotka eivät yleensä seuraa tieteellistä prosessia, vaan ovat vapaammin kirjoitettuja ja tuotettuja)
+
+-   Historiallisia selvityksiä (jotka kohdistuvat historiaan ja suuriin rakenteisiin eikä kohderyhmän yksilöihin)
+
+-   Kirjallisuuskatsauksia (jotka koostavat muita tutkimuksia eivätkä siten tutki yksittäisiä henkilöitä)
+
+-   Meta-analyyseja (jotka koostavat muita tutkimuksia eivätkä siten tutki yksittäisiä henkilöitä)
+
+Empiirinen tutkimus voi vapaasti olla laadullinen tai määrällinen. Kyseessä voi siten olla haastatteluja, havaintoja, rekisteritutkimuksia, kyselytutkimuksia tai muita vastaavia menettelyjä. Myös toimintatutkimukset ovat empiirisiä, kunhan niihin sisältyy jonkin tapainen tiedonkeruu.
+
+Jos toimintatutkimus vain kehittää toimintaa (esim. kirjoittaa yhdenvertaisuussuunnitelman laitokselle, mutta ei kerää millään tavalla tietoa laitoksen kulttuurista tai henkilöstön kokemuksista), sitä ei oteta mukaan systemaattiseen kirjallisuuskatsaukseen. Tällaista toimintatutkimusta voi kuitenkin hyödyntää raportin ja/tai opinnäytetyön muussa kirjoituksessa, joten sen kannattaa joka tapauksessa kirjata muistiin - kunhan sitä ei sisällytä systemaattisen katsauksen osioon.

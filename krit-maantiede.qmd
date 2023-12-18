@@ -1,1 +1,79 @@
 # Maantiede {#sec-krit-maantiede}
+
+Hankkeessa käytetään maantieteellisiä rajauksia eri tavoin hakujen yhteydessä. Rajaukset ovat suomalaiset tutkimukset sekä eurooppalaiset tutkimukset pois lukien Suomi.
+
+## Suomalaiset tutkimukset
+
+Rajaus toteutetaan kahdella tavalla. Ensinnäkin, suomalaisia tutkimuksia haetaan suomenkielisellä hakulausekkeella. Voidaan olettaa, että suomeksi julkaistu empiirinen tutkimus on myös toteutettu Suomessa. Tulokset tulee kuitenkin tarkistaa lopullisen analyysin kohdalla, ettei mukaan tule suomeksi kirjoitettuja tutkimuksia jotka eivät ole empiirisesti toteutettu Suomessa.
+
+Suomessa julkaistaan myös jonkin verran ruotsinkielistä tutkimusta. Näitä haetaan omilla hakulausekkeilla, jotta esimerkiksi Ahvenanmaalla toteutettu tutkimus tulisi mukaan. Voidaan kuitenkin olettaa, että määrä on hyvin pieni.
+
+Toisena rajaustoteutuksena haemme suomalaisia tutkimuksia osittain eri tietokannoista kuin eurooppalaisia tutkimuksia. Viranomaisten tietokannat sekä opinnäytetietokannat sisältävät enimmäkseen tutkimuksia Suomesta.
+
+Täten maantieteellistä rajausta ei suomalaisten tutkimusten kannalta tarvitse erikseen tehdä hakukoneissa tai tietokannoissa.
+
+## Eurooppalaiset tutkimukset
+
+Eurooppalaisilla tutkimuksilla tarkoitetaan tutkimuksia, jotka käsittelevät empiirisesti seuraavia maita:
+
+-   Alankomaat/Hollanti
+-   Albania
+-   Andorra
+-   Armenia
+-   Azerbaidzhan
+-   Belgia
+-   Bosnia ja Hertsegovina
+-   Bulgaria
+-   Englanti
+-   Espanja
+-   Färsaaret
+-   Georgia
+-   Irlanti
+-   Islanti
+-   Iso-Britannia (maat listattuna myös erikseen)
+-   Italia
+-   Itävalta
+-   Kazakstan
+-   Kosovo
+-   Kreikka
+-   Kroatia
+-   Kypros
+-   Latvia
+-   Liechtenstein
+-   Liettua
+-   Luxemburg
+-   Malta
+-   Moldova
+-   Monaco
+-   Montenegro
+-   Norja
+-   Pohjois-Irlanti
+-   Pohjois-Makedonia
+-   Portugali
+-   Puola
+-   Ranska
+-   Romania
+-   Ruotsi
+-   Saksa
+-   San Marino
+-   Serbia
+-   Skotlanti
+-   Slovakia
+-   Slovenia
+-   Sveitsi
+-   Tanska
+-   Tšekki
+-   Turkki
+-   Ukraina
+-   Unkari
+-   Valko-Venäjä
+-   Vatikaani
+-   Venäjä
+-   Viro
+-   Wales
+
+Jos hakukoneessa ei voi tehdä maantieteellistä rajausta, käytetään tätä listaa seulonnan yhteydessä poistaakseen ei-eurooppalaisia tutkimuksia.
+
+Jos hakukoneessa voi tehdä maantieteellisen rajauksen maakohtaisesti, käytetään tätä listaa.
+
+Jos hakukoneessa voi tehdä maantieteellisen rajauksen vain mannerkohtaisesti (esim. "Eurooppa"), käytetään Eurooppa-rajausta, vaikka se ei täysin vastaisi meidän rajauksiamme. Tällainen menettely pitää dokumentoida tarkasti!

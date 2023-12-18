@@ -64,7 +64,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-sidebar docked nav-fixed slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -157,17 +157,10 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-hakulausekkeet" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
- <span class="menu-text">Hakulausekkeet</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-hakulausekkeet">    
-        <li>
-    <a class="dropdown-item" href="./hakulausekkeet.html" rel="" target="">
- <span class="dropdown-text">Hakulausekkeet</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="./hakulausekkeet.html" rel="" target="">
+ <span class="menu-text">Hakulausekkeet</span></a>
   </li>  
-    </ul>
-  </li>
 </ul>
             <div class="quarto-navbar-tools ms-auto">
 </div>
@@ -207,19 +200,189 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Tällä sivulla</h2>
    
   <ul>
-  <li><a href="#sec-hakujen-suorittaminen" id="toc-sec-hakujen-suorittaminen" class="nav-link active" data-scroll-target="#sec-hakujen-suorittaminen">Hakujen suorittaminen</a></li>
+  <li><a href="#sec-hakujen-suorittaminen" id="toc-sec-hakujen-suorittaminen" class="nav-link active" data-scroll-target="#sec-hakujen-suorittaminen">Hakujen suorittaminen</a>
+  <ul class="collapse">
+  <li><a href="#osa-1-haun-suorittaminen" id="toc-osa-1-haun-suorittaminen" class="nav-link" data-scroll-target="#osa-1-haun-suorittaminen">Osa 1: Haun suorittaminen</a></li>
+  <li><a href="#osa-2-duplikaattien-poisto" id="toc-osa-2-duplikaattien-poisto" class="nav-link" data-scroll-target="#osa-2-duplikaattien-poisto">Osa 2: Duplikaattien poisto</a></li>
+  <li><a href="#osa-3-seulonta" id="toc-osa-3-seulonta" class="nav-link" data-scroll-target="#osa-3-seulonta">Osa 3: Seulonta</a></li>
+  <li><a href="#osa-4-loppukirjaukset-ja-tutkimusten-lataaminen" id="toc-osa-4-loppukirjaukset-ja-tutkimusten-lataaminen" class="nav-link" data-scroll-target="#osa-4-loppukirjaukset-ja-tutkimusten-lataaminen">Osa 4: Loppukirjaukset ja tutkimusten lataaminen</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 
 
-<section id="sec-hakujen-suorittaminen" class="level1">
+<section id="sec-hakujen-suorittaminen" class="level1 page-columns page-full">
 <h1>Hakujen suorittaminen</h1>
+<div id="fig-hakeminen-kulkukaavio" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="pics/HAKUPROSESSI.drawio.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Kuva&nbsp;1.1: Hakujen suorittamisen kulkukaavio</figcaption>
+</figure>
+</div>
+<p>Hakeminen suoritetaan osahakukohtaisesti (haut 1-6). Jokaiselle haulle seurataan samaa prosessia:</p>
+<ol type="1">
+<li>Laadi dokumentointityökalut, eli Excel-taulukot</li>
+<li>Suorita haku jokaisessa hakukoneessa
+<ol type="1">
+<li>Muotoile hakulausekkeet hakukoneeseen sopivaksi</li>
+<li>Joissain hakukoneissa voit saada kaikki tulokset ladattua kerralla, toisissa joudut tekemään haut sivukohtaisesti (ensimmäiset sata, toiset sata, jne.)</li>
+<li>Kirjaa tutkimusten löytömäärä PRISMA-kulkukaaviota varten</li>
+</ol></li>
+<li>Seulo pois duplikaatit
+<ol type="1">
+<li>Merkitse ja tarkista duplikaatit</li>
+<li>Poista kaikki paitsi yksi tulos jokaisesta varmistetusta duplikaattiryhmästä (niitä voi olla useampia kuin kaksi!)</li>
+<li>Kirjaa poistomäärä sekä jäljelle jäävien tutkimusten määrä PRISMA-kulkukaaviota varten</li>
+</ol></li>
+<li>Seulo otsikon pohjalta
+<ol type="1">
+<li>Säilytä epävarmat tutkimukset</li>
+</ol></li>
+<li>Seulo tiivistelmien pohjalta
+<ol type="1">
+<li>Säilytä epävarmat tutkimukset</li>
+</ol></li>
+<li>Tarkista epävarmat tutkimukset hankeryhmän kanssa ja seulo pois tarvittaessa
+<ol type="1">
+<li>Kirjaa poisseulottujen määrä sekä jäljelle jäävien tutkimusten määrä PRISMA-kulkukaaviota varten</li>
+</ol></li>
+<li>Hae ja lataa tutkimukset
+<ol type="1">
+<li>Jos et pääse tutkimukseen käsiksi, kysy ensin kollegalta apua. Jos hänkään ei pysty auttamaan, seulo tutkimus pois syyllä “Ei pääsyä”.</li>
+<li>Kirjaa poissuljettujen tutkimusten määrät syykohtaisesti PRISMA-kulkukaaviota varten</li>
+<li>Muista tallentaa haetut tutkimukset!</li>
+</ol></li>
+<li>Lisää tässä vaiheessa muilla menetelmillä löydetyt tutkimukset määrään</li>
+<li>Kirjaa lopullinen tutkimusmäärä PRISMA-kulkukaaviota varten</li>
+</ol>
+<section id="osa-1-haun-suorittaminen" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="osa-1-haun-suorittaminen">Osa 1: Haun suorittaminen</h2>
+<p>Tutustu haun kriteeristöön ja tietokantoihin. Tarkista varsinkin tietokantojen toimintaohjeet, jotta pystyt muokkaamaan hakulausekkeen sopivaan muotoon.</p>
+<p>Laadi tarvittavat dokumentointi- ja tulostiedostot, esimerkiksi Excel-pohjaa käyttäen.</p>
+<p>Muista dokumentoida prosessi hyvin tarkasti!</p>
+<ul>
+<li>Minä päivänä haku suoritettiin? Jos suoritat useamman päivän yli, merkitse jokaisena päivänä toteutetut tiedot erikseen (päiväkirjamaisesti).</li>
+<li>Mitä hakulauseketta käytettiin? Kirjaa muotoilemasi hakulauseke, ei hankkeelta saatu “geneerinen” lauseke.</li>
+<li>Jos mahdollista, linkkaa suoraan hakuun. Voit kopioida haun verkko-osoitteen.</li>
+<li>Miten hankkeen rajaukset toteutettiin haussa? Kirjaa kaikki kohdat, joihin olet laittanut “täppiä” tai jotka olet sisällyttänyt hakusanoihin, ja jotka liittyvät hakukriteeristöömme. Jos kriteeristön täyttyminen näkyy suoraan hakulausekkeesta, et tarvitse tehdä tätä erikseen.</li>
+<li>Jouduitko poikkeamaan hakukriteereistä jollain tavalla? Kirjaa kaikki poikkeamat!</li>
+</ul>
+<p>Jos hakusi koskettaa useampaa hakukonetta (ja joudut siten suorittamaan haut vuorotellen), on helpointa lisätä tulokset yhteen yhtenäiseen tulos-Exceliin peräkkäin. Sinun ei tarvitse kirjata, mistä hakukoneesta löysit minkäkin tuloksen - kokonaismäärä hakukoneittain riittää (nämä yhdistetään joka tapauksessa haun lopussa yhdeksi summaksi).</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><strong>PRISMA</strong>: <u>Identification &gt; Records identified from: &gt; Databases (N = …)</u></p>
+<p><em>Kirjaa tähän kuinka monta tulosta yhteensä löytyi hauilla.</em></p>
+</div></div><p>Hakukonekohtaiset ohjeet hakemiselle löytyvät erikseen tältä ohjesivustolta.</p>
+<p>Myöhemmän käsittelyn kannalta oleellisimmat tiedot ovat tutkimuksen otsikko, julkaisuvuosi sekä linkki tutkimukseen. Linkkinä suositellaan ensisijaisesti kestolinkkejä, esimerkiksi DOI-, URN- tai URI-numeroita. Jos näitä ei löydy tai ei ole saatavilla, myös tavallinen linkki käy.</p>
+</section>
+<section id="osa-2-duplikaattien-poisto" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="osa-2-duplikaattien-poisto">Osa 2: Duplikaattien poisto</h2>
+<p>Aloita duplikaattien poisto vasta, kun olet suorittanut <strong>kaikki</strong> osahaun tietokantahaut! Muuten joudut tekemään tuplatyötä myöhemmin.</p>
+<p>Excelissä voit tunnistaa ja poistaa duplikaatit automatisoidusti:</p>
+<ul>
+<li>Merkitse duplikaatit ensin: Valitse kaikki tulosten otsikot &gt; Aloitus &gt; Ehdollinen muotoilu &gt; Solujen korostussäännöt &gt; Arvojen kaksoiskappaleet… &gt; valitse haluamasi muotoilutyyli &gt; OK:</li>
+</ul>
+<div id="fig-duplikaatit-1" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="pics/arvojenkaksoiskappaleet.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Kuva&nbsp;1.2: Arvojen kaksoiskappaleiden muotoileminen Excelissä</figcaption>
+</figure>
+</div>
+<ul>
+<li><p>Tarkista jokaisen merkityn duplikaatin osalta, että ne todella ovat duplikaatteja (eikä esim. useampi tutkimus, jolla on sama hyvin geneerinen nimi mutta on todellisuudessa eri tutkimuksia).</p></li>
+<li><p>Luo uusi sarake, johon merkitset duplikaatit (esim. numerolla 1). Voit sitten luoda suodattimen, jolla laitat duplikaatit piiloon: Valitse koko taulukko, mukaan lukien otsikot &gt; Aloitus &gt; Lajittele ja suodata &gt; Suodata:</p></li>
+</ul>
+<div id="fig-duplikaatit-2" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="pics/merkitytduplikaatit.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Kuva&nbsp;1.3: Duplikaatit merkitty ja suodatus laitettu päälle</figcaption>
+</figure>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><strong>PRISMA:</strong> <u>Identification &gt; Records removed before screening (N = …)</u></p>
+<p><em>Kirjaa tähän kuinka monta tulosta poistettiin duplikaatteina.</em></p>
+</div></div><ul>
+<li>Seuraavia kohtia varten oletetaan, että olet asettanut duplikaatit piiloon suodattimella (valitse nuoli duplikaattikirjauksen sarakkeen kohdalla &gt; poista täppä suodattimen merkinnän vierestä, esim. 1 &gt; OK)</li>
+</ul>
+</section>
+<section id="osa-3-seulonta" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="osa-3-seulonta">Osa 3: Seulonta</h2>
+<p><strong>Aloita seulonta otsikoiden pohjalta</strong>.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><strong>PRISMA</strong>: <u>Screening &gt; Records screened (N = …)</u></p>
+<p><em>Kirjaa tähän kuinka monta tulosta on mukana ensimmäisessä seulonnassa ennen itse seulonnan aloittamista.</em></p>
+</div></div><p>Tarkista jokaisen otsikon kohdalla, vastaako se olennaisimpia hakukriteerejämme: kohderyhmä, empiria (ei aina mainittu!) sekä aihealue. Jos olet epävarma, jätä tulos mukaan mutta merkitse epävarmuus taulukkoon jollain tavalla.</p>
+<p>Yleensä seulonnassa tippuu pois suurin osa tuloksista. Helpointa voi tuolloin olla laittaa merkintä jokaisen mukaan tulevan tutkimuksen kohdalle (sen sijaan, että merkitsee ne, jotka <strong>eivät</strong> tulisi mukaan).</p>
+<div id="fig-seulonta-1" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="pics/ensimmainenseulonta.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Kuva&nbsp;1.4: Ensimmäisen seulonnan tulokset. Mukaan tulevat tutkimukset ovat merkittynä numerolla uudessa sarakkeessa. Duplikaatit ovat poissa suodattimen avulla (huomaa pieni suppilon kuva duplikaattisarakkeen kohdalla)</figcaption>
+</figure>
+</div>
+<p>Jos olet ladannut tutkimuksen vuosiluvun, voit myös tarkistaa sen sopivuuden kriteeristöön samalla. Muista, että tässä vaiheessa halutaan seulota nopeasti pois suurin osa tuloksista - seuraavissa vaiheissa luetaan jäljelle jääviä tutkimuksia tarkemmin.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><strong>PRISMA:</strong></p>
+<p><u>Screening &gt; Records excluded (N = …)</u></p>
+<p><em>Kirjaa kuinka monta tulosta seulottiin pois.</em></p>
+<p><u>Screening &gt; Reports sought for retrieval (N = …)</u></p>
+<p><em>Kirjaa kuinka monta tulosta jäi haettavaksi otsikkoseulonnan pohjalta. Älä tee tiivistelmäseulontaa ennen tätä vaihetta!</em></p>
+</div></div><p><strong>Kun olet seulonnut otsikon pohjalta, voit aloittaa tiivistelmien pohjalta seulomisen</strong>.</p>
+<p>Jokaisen jäljelle jääneen tutkimuksen kohdalla, seuraa tutkimuksen linkkiä ja lue tiivistelmä.</p>
+<p>Jos et pääse käsiksi tiivistelmään, kysy ensin kollegalta, voiko hän auttaa. Jos hänkään ei saa tiivistelmää esille, merkitse tulos ei-haettavaksi.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><strong>PRISMA:</strong> <u>Screening &gt; Reports not retrieved</u></p>
+<p><em>Kirjaa kuinka monta tulosta ei voitu hakea. Erittele määrät syyn mukaan. Esimerkkisyitä: Ei pääsyä tietokantaan, virheellinen linkki, lähdettä ei löytynyt.</em></p>
+<p><u>Screening &gt; Reports assessed for eligibility</u></p>
+<p><em>Kirjaa kuinka monta tulosta voidaan hakea ja seulota tiivistelmän pohjalta.</em></p>
+</div></div><p>Jos tiivistelmä vastaa hakukriteeristöämme, merkitse tulos haettavaksi. Jos olet epävarma, jätä tutkimus mukaan mutta merkitse epävarmuus taulukkoon jollain tavalla.</p>
+<div id="fig-seulonta-2" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="pics/toinenseulonta.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Kuva&nbsp;1.5: Toisen seulonnan tulokset. Yksi tutkimus on merkitty mukaan tulevaksi, ja yksi on merkitty epävarmaksi. Duplikaatit ja ensimmäisessä seulonnassa pudotetut tulokset ovat poissa suodattimen avulla.</figcaption>
+</figure>
+</div>
+<p>Tässä vaiheessa voit tarkistaa epävarmat tutkimukset: voit lukea tutkimusta tarkemmin, ja/tai kysyä kollegalta apua. Jos et itse osaa päättää, kuuluuko tutkimus mukaan vai ei, kysy kollegalta - viime sijassa teemme päätöksen ryhmänä.</p>
+<p>Yleensä tekstissä mahdollisesti esiintyvät luvut “Research Design”, “Research Questions” tai “Methods and Materials” pystyvät vastaamaan kysymykseen, tulisiko tutkimus ottaa mukaan vai ei. Asia ei aina kuitenkaan ole selkeä, joten on parempi keskustella mukaanottamisesta ryhmässä kuin tehdä epävarma päätös.</p>
+<p>Lopussa pitäisi jokaiselle tutkimukselle olla määritelty, onko se mukana vai ei – toisin sanoen, epävarmoja tuloksia ei pitäisi lopuksi olla taulukossa ollenkaan.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><strong>PRISMA:</strong> <u>Screening &gt; Reports excluded &gt; syittäin (N = …)</u></p>
+<p><em>Kirjaa kunka monta tulosta seulottiin pois tiivistelmän pohjalta, ja mistä syystä. Ryhmitä syyt yhteen. Esimerkkisyitä: Ei vastaa kohderyhmää, ei ole empiirinen, ei täytä julkaisuaikakriteeriä, ei ole vertaisarvioitu.</em></p>
+</div></div></section>
+<section id="osa-4-loppukirjaukset-ja-tutkimusten-lataaminen" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="osa-4-loppukirjaukset-ja-tutkimusten-lataaminen">Osa 4: Loppukirjaukset ja tutkimusten lataaminen</h2>
+<p>Voit nyt ladata jokaisen tutkimuksen PDF-tiedoston tai vastaavan omalle koneellesi. Vaihtoehtoisesti voit lukea tutkimuksia myös verkossa lataamatta tiedostoja – kyse on omasta mieltymyksestäsi, mutta yleensä tiedoston löytyminen koneen kansiosta helpottaa työtä.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><strong>PRISMA</strong>: <u>Included &gt; Studies included in review (N = …)</u></p>
+<p><em>Kirjaa kuinka monta tulosta jäi jäljelle koko prosessin jälkeen. Voit joutua päivittelemään tätä numeroa hankkeen edetessä, jos löydämme muista lähteistä tärkeitä tutkimuksia jotka sisällytetään erikseen kirjallisuuskatsaukseen.</em></p>
+</div></div><p>Täytä myös tässä vaiheessa tuloskohtainen dokumentointi-Excel (löytyy Teams-kansiosta). Hankkeen kannalta tarvitsemme jokaisesta tutkimuksesta seuraavat tiedot:</p>
+<ul>
+<li>Tekijöiden nimet</li>
+<li>Julkaisuvuosi</li>
+<li>Tutkimuksen otsikko</li>
+<li>Julkaisutyyppi</li>
+<li>Linkki tutkimukseen</li>
+<li>Tiedonkeruun muoto</li>
+<li>Huomioita tiedonkeruun muodosta</li>
+<li>Kohdepopulaatio (= kohderyhmä)</li>
+<li>Otoskoko</li>
+<li>Otantamenetelmä</li>
+<li>Kohderyhmän yhteydenottotapa (miten kohderyhmä tavoitettiin?)</li>
+<li>Vastausmuistutusten määrä (kuinka usein kohderyhmää muistutettiin osallistumaan tutkimukseen, jos tällaista tehtiin?)</li>
+</ul>
+<p>Nyt olet valmis hakuprosessin kanssa! Seuraavaksi voit analysoida tuloksia – ja analyysiprosessissa saat paljon vapaammat kädet kuin haussa.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

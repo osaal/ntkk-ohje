@@ -1,1 +1,9 @@
 # Tutkimuskieli {#sec-krit-tutkimuskieli}
+
+Hankkeessa haetaan tutkimusraportteja kolmella kielellä: **suomi**, **ruotsi** ja **englanti**.
+
+Hauissa 1-5 käytetään kaikkia kolmea kieltä. Näitä varten on kirjoitettu erilliset hakulausekkeet.
+
+Haussa 6 käytetään vain englantia, koska haku kohdistuu eurooppalaisiin vertaisarvioituihin tutkimuksiin, ja tutkimuksessa käytetään kansainvälisessä yhteydessä melkein ainoastaan englantia.
+
+Kielirajausta ei tarvitse erikseen asettaa hakukoneissa. Hakulausekkeiden muotoileminen näillä kolmella kielellä pitäisi varmistaa kielirajauksen sellaisenaan.

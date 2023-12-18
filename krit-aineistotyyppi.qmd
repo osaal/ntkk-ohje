@@ -1,1 +1,75 @@
 # Aineistotyyppi {#sec-krit-aineistotyyppi}
+
+Hankkeessa haemme seuraavia aineistotyyppejä:
+
+-   Vertaisarvioidut tutkimusraportit
+
+-   Viranomaisraportit
+
+-   Yhdistysten tutkimusraportit
+
+-   Opinnäytteet
+
+Tällä sivulla määrittelemme tarkemmin, mitä jokainen rajaus tarkoittaa.
+
+## Vertaisarvioidut tutkimusraportit
+
+**Vertaisarvioitu tutkimusraportti** on tutkimuksen lopussa kirjoitettu teksti, joka on kokonaisuudessaan tai osissa **vertaisarvioitu**. Vertaisarvioinnissa toiset tutkijat tarkistavat tekstin ja antavat palautetta tutkimuksen tieteellisestä laadusta. Vertaisarvioinnilla pyritään takaamaan tieteellisten tulosten luotettavuus ja minimoimaan yksittäisten tutkijoiden vahingollisia virheitä tai ajatusvinoumia.
+
+**Vertaisarviointia voidaan toteuttaa monella eri tavalla**:
+
+-   [Kaksoissokkoarvioinnissa]{.underline} kirjoittaja ei tiedä arvioijien henkilöllisyyttä, eikä arvioijat tiedä kirjoittajan henkilöllisyyttä. Tämä on yleisin vertaisarvioinnin muoto.
+
+-   [Yksittäissokkoarvioinnissa]{.underline} jompikumpi tahoista ei tiedä toisten henkilöllisyyksiä, mutta toisinpäin asetelma ei päde. Voi esimerkiksi olla, että arvioijat eivät tiedä kirjoittajaa, mutta kirjoittaja saa tietää arvioijien henkilöllisyydet. Tämä on tavallisempaa humanististen tieteiden ja kauppatieteiden puolella.
+
+-   [Kolmoissokkoarvioinnissa]{.underline} kukaan kirjoittajista, arvioijista tai toimittajista eivät tunne toisiaan. Tätä harrastetaan harvoin.
+
+-   [Avoimessa vertaisarvioinnissa]{.underline} kaikki tietävät toisensa. Usein myös kirjallinen arviointi ja kirjoittajan vastineet julkaistaan avoimesti julkaisuprosessin päädyttyä. Tämä on harvinainen, joskin yleistyvä, muoto.
+
+**Sinänsä vertaisarvioitu status ei liity tutkimuksen julkaisumuotoon**. Kuitenkin joitain yleisyyksiä löytyy\_
+
+-   [Aikakauslehdissä]{.underline} julkaistut tavalliset artikkelit ovat yleensä vertaisarvioituja. Tieto vertaisarvioinnista löytyy joko artikkelista suoraan, tai aikakauslehden sivuilta.
+
+-   [Tieteelliset kirjat]{.underline} ovat yleensä vertaisarvioituja. Vertaisarviointi ei kuitenkaan aina seuraa kaksoissokkomenettelyä, vaan voi myös olla vain kustantajan itse toteuttama arviointi.
+
+-   [Luvut kokoelmateoksissa]{.underline} (ns. kirja-artikkelit) voivat olla vertaisarvioituja. Usein kuitenkin luotetaan kokoelmateoksen toimittajien ammattitaitoon, jolloin luvut itsessään eivät välttämättä ole arvioituja ulkopuolisen toimesta.
+
+-   [Konferenssiesitelmät]{.underline} ja niistä tehdyt julkaisut yleensä eivät ole vertaisarvioituja.
+
+-   [Opinnäytteet]{.underline} voidaan tietyssä määrin nähdä vertaisarvioituina. Peruskoulutuksen opinnäytteet "vertaisarvioidaan" ohjaajan (tai ohjauskomitean) toimesta, jolloin arvioinnin suorittaa henkilön tunteva, itse ammattitaidoltaan korkealuokkkainen henkilö. Väitöskirjat tarkistetaan vähintään kahden ulkopuolisen esitarkastajan toimesta, jotka tietävät kirjoittajan henkilöllisyyden mutta eivät ole tutkijan lähipiiristä.
+
+Kun tässä hankkeessa puhutaan vertaisarvioiduista tutkimusraporteista, **inkluusio** määritellään siten tällä tavalla:
+
+-   Artikkelit tieteellisissä aikakauslehdissä (paitsi jos lehti ei toteuta vertaisarviointia)
+
+-   Tieteellisesti kustannetut kirjat (ei tietokirjat, eli populaaritiede!)
+
+-   Luvut kokoelmateoksissa
+
+[Muista tarkistaa artikkelien julkaisulehtien vertaisarviointistatus]{.underline} ennen lopullista päätöstä mukaan ottamisesta!
+
+## Viranomaisraportit
+
+Viranomaisraporteilla tarkoitetaan Suomen viranomaisten julkaisemia tutkimusraportteja ja katsauksia. "Viranomainen" on tässä kontekstissa määritelty valtionhallintoon, ministeriöihin ja niiden hallinnonalalla toimiviin virastoihin. Tärkeitä viranomaisia hankkeen kannalta ovat mm.:
+
+-   Poliisiammattikorkeakoulu ja Pelastusopisto
+
+-   Sisäministeriö ja Puolustusministeriö
+
+-   Työterveyslaitos, Terveyden ja hyvinvoinnin laitos
+
+Nämä raportit useimmiten eivät ole vertaisarvioituja. NIiden sisältö on kuitenkin tärkeää hankkeelle, koska suuri osa syrjinnän ja häirinnän tutkimuksesta on voitu toteuttaa vain viranomaisraportteina.
+
+## Yhdistysten tutkimusraportit
+
+Yhdistysten tutkimusraporteilla tarkoitetaan Suomen pelastusalan järjestöjen itse julkaisemia tutkimusraportteja ja katsauksia. Julkaisevia järjestöjä on yksi: Suomen Pelastusalan Keskusjärjestö, SPEK.
+
+Nämä tutkimusraportit seuraavat pitkältä viranomaisraporttien muotoa, ja ovat useimmiten ei-vertaisarvioituja. Niidenkin sisällyttäminen on tärkeää, koska SPEK tuottaa suuren osan Suomen pelastusalaa koskevasta tutkimuksesta.
+
+## Opinnäytteet
+
+Opinnäytteillä tarkoitetaan Suomen korkeakouluissa tuotettuja opintojen opinnäytetöitä, jotka liittyvät kolmannen syklin tai tutkimuksellisen opetuksen tutkintoihin. Näitä ovat kandidaatti-, maisteri-, lisensiaatti-, tohtori-, AMK- ja ylempään AMK-tutkintoihin liittyvät opinnäytteet. Siten ulkopuolelle rajataan mahdolliset seminaarityöt, jotka eivät liity suoraan korkeakoulujen tutkintoihin (esim. toisen asteen tutkintojen työt).
+
+Jokainen korkeakoulu julkaisee opinnäytteet haluamallansa tavalla. Opinnäytteet tulkitaan viranomaisten asiakirjoiksi, ja ovat siten L. viranomaisten toiminnan julkisuuden ([21.5.1999/621](#0)) mukaan ensisijaisesti julkisia. Monet yliopistot ja ammattikorkeakoulut antavat kuitenkin opiskelijoille mahdollisuuden rajata saatavuutta vain lukusaleihin. Pohjois-Suomen hallinto-oikeuden antaman päätöksen (15.2.2019/0036/1) kuitenkin yliopistojen tulee toimittaa sähköisessä muodossa esiintyvän opinnäytteen sähköisesti henkilöasiakkaan niin pyytäessä, vaikka lukuoikeus olisi rajattu lukusaliin tai muuhun muotoon.
+
+Jos tässä hankkeessa lukusalirajoitteet muodostuvat ongelmaksi, vetoamme tuohon HAO:n antamaan päätökseen tietopyynnön yhteydessä. [Tällaiset tietopyynnöt tehdään harkiten projektipäällikön toimesta!]{.underline}

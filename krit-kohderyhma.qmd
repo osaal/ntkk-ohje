@@ -1,1 +1,25 @@
 # Kohderyhmä {#sec-krit-kohderyhma}
+
+Hankkeen tiedonhaku kohdistetaan kolmeen kohderyhmään:
+
+-   Pelastustoimi
+
+-   Ensihoito
+
+-   Muut turvallisuustoimijat
+
+## Pelastustoimi
+
+Pelastustoimella tarkoitetaan kaikkia pelastusalalla toimivia henkilöitä. Tämä koskettaa mm. operatiivista henkilökuntaa (esim. pelastajia ja hätäkeskusoperaattoreita), hallintohenkilökuntaa (esihenkilöitä, viestintää, talouspuolta), sopimuspalokunnissa toimivia henkilöitä, yhdistystoimijoita, pelastusalan opettajia ja opiskelijoita.
+
+Tästä rajataan ulos ensihoidon operatiivinen henkilökunta käytännön syistä. Ensihoidon suomalaisen kontekstin haut toteutetaan erikseen, koska hakutyö voi olla jopa laajempi kuin pelastusalan toimijoiden tutkimushaut.
+
+Tästä rajataan myös ulos kaikki muut turvallisuustoimijat, vaikka he tekisivät tiheätäkin yhteistyötä pelastustoimen kanssa. Muita turvallisuustoimijoita katsotaan erillisellä haulla, ja heihin kohdistuva tutkimus ei ole hankkeen keskiössä vaan enemmän ns. benchmarking-toimena.
+
+## Ensihoito
+
+Ensihoidolla tarkoitetaan ensihoidon operatiivista henkilökuntaa (mm. ambulanssikuljettajia ja ensihoitajia). Nämä ovat rajattuna omaksi kohderyhmäksi laajuudensa takia, ja koska voimme olettaa, että aihetta on tutkittu verrannollisesti enemmän ensihoidon alalla kuin pelastustoimessa yleisesti ottaen.
+
+## Muut turvallisuustoimijat
+
+Muilla turvallisuustoimijoilla tarkoitetaan tässä hankkeessa poliisia, rajavartiostoa, puolustusvoimia sekä järjestyksenvalvojia. Rajaukseen ei sisällytetä muita toimijoita, vaikka he voisivat olla tiheässäkin yhteistyössä pelastustoimen kanssa. Muiden turvallisuustoimijoiden katsaus tehdään vain benchmarking-mielessä, jolloin keskitytään yksinkertaisiin vertailuihin pelastustoimesta saatuihin tuloksiin sekä tutkimusten menetelmiin.

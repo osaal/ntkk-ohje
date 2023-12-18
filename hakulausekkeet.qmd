@@ -1,1 +1,81 @@
 # Hakulausekkeet {#sec-hakulausekkeet}
+
+**Hakulausekkeet ovat valmisteltu tutkimustyöpajan pohjalta**. Lausekkeet ovat jaoteltu hankkeen osahakujen mukaan, sekä myös kielellisesti että aiheellisesti.
+
+**Monessa hakukoneessa on tarpeen tehdä muutoksia**, jotta hakulausekkeen ehdolliset muotoilut sopivat hakukoneeseen. Tee siksi aina tarkat muistiinpanot kaikista muutoksista ja lisää ne hakujen dokumentointiin.
+
+**Jokainen hakulauseke seuraa samaa rakennetta**:
+
+`(kohderyhmän rajaukset) AND (aiheen rajaus)`
+
+**Hakulausekkeet ovat käännetty kolmelle kielelle** hauissa 1-5. Testauksen jälkeen päädyimme jättämään maantieteellisen rajauksen pois hakulausekkeesta. Maantieteellinen rajaus suoritetaan joko hakukoneessa erikseen tai seulonnan yhteydessä.
+
+**Hakulausekkeissa ei olla käytetty lainausmerkkejä** tarkkojen hakujen rakentamiseksi (paitsi englannin sanan "medic" rajaamiseksi), koska hakukoneet eroavat suuresti siinä, tekevätkö ne sanatarkan haun automaattisesti vai ei. Muista tarkistaa jokaisen hakukoneen kohdalla ohjeet ja lisätä lainausmerkit tarvittaviin kohtiin.
+
+**Muista myös tarkistaa, että hakukone tukee villikortteja** `*` ja `?`. Käytämme molempia villikortteja hakulausekkeissa, mutta jos hakukone ei tue jompaa kumpaa (tai kumpaakaan), ne tulee poistaa ennen hakua.
+
+**Kopioi aina ensin hakulauseke johonkin tekstinkäsittelyohjelmaan**, joka **ei** osaa muotoilla tekstiä (esimerkiksi Muistio Windows-tietokoneilla). Täten voit varmistaa, että muotoilu on oikein eikä siellä ole piilossa mitään erikoismerkkejä. Voit myös helpommin muokata hakulauseketta tällaisessa kohdassa ensin, ja vasta sen valmistuttua syöttää sen hakukoneen hakualueeseen (jotka usein ovat liian pieniä näyttääkseen hakulausekkeen kokonaisuudessaan).
+
+## Pelastustoimen haut (ei ensihoito)
+
+**Suomeksi:**
+
+`(pelast* OR palo* OR sammut* OR hätäkesku*) AND (syrji* OR häirin* OR häirit* OR painost* OR pahoinpi* OR ahdistel* OR epäasialli* OR yhdenvertai* OR tasa-arvo* OR tasapuoli* OR tasavertai*)`
+
+**Ruotsiksi:**
+
+`(räddning* OR brand* OR släckning* OR nödcentral*) AND (diskriminer* OR trakasse* OR påtryck* OR våld* OR osaklig* OR opasslig* OR jämlik* OR jämställd*)`
+
+**Englanniksi:**
+
+`((fire rescue* OR fire?fighter* OR rescue service* OR emergency respon* OR emergency personnel) NOT ("medic")) AND (discriminat* OR harass* OR pressur* OR violen* OR improper behavio?r OR equal*
+OR non-discriminat* OR equit*)`
+
+Sana `medic` rajataan lainausmerkeillä, koska huomattiin hakutestauksessa, että ei-sanatarkka haku tuottaa erittäin paljon epärelevanttia tulosta (lääketieteellistä tutkimusta).
+
+Villikortti lauseessa `improper behavio?r` hakee sekä amerikkalaista että brittiläistä kirjoitusasua. Monet hakukoneet osaavat hakea tämän automaattisesti, jolloin kysymysmerkin voi jättää pois jos hakukone ei muuten tätä villikorttia tukisi.
+
+## Ensihoidon haut
+
+**Suomeksi:**
+
+`(ensihoit* OR sairaankuljet* OR ambulanssi*) AND (syrji* OR häirin* OR häirit* OR väkival* OR painost* OR pahoinpi* OR ahdistel* OR epäasialli* OR yhdenvertai* OR tasa-arvo* OR tasapuoli* OR tasavertai*)`
+
+**Ruotsiksi:**
+
+`(första hjälp* OR nödhjälp* OR ambulans* OR sjuktransport* OR förstavårdar*) AND (diskriminer* OR trakasse* OR påtryck* OR våld* OR osaklig* OR opasslig* OR jämlik* OR jämställd*)`
+
+**Englanniksi:**
+
+`("medic" OR emergency medic* OR ambulance) AND (discriminat* OR harass* OR pressur* OR violen* OR improper behavio?r OR equal* OR non-discriminat* OR equit*)`
+
+Sana `medic` rajataan lainausmerkeillä, koska huomattiin hakutestauksessa, että ei-sanatarkka haku tuottaa erittäin paljon epärelevanttia tulosta (lääketieteellistä tutkimusta).
+
+Villikortti lauseessa `improper behavio?r` hakee sekä amerikkalaista että brittiläistä kirjoitusasua. Monet hakukoneet osaavat hakea tämän automaattisesti, jolloin kysymysmerkin voi jättää pois jos hakukone ei muuten tätä villikorttia tukisi.
+
+## Pelastustoimen ja ensihoidon haku englanniksi (haku 6)
+
+`(fire rescue* OR fire*fighter* OR rescue service* OR emergency respon* OR emergency
+personnel OR "medic" OR emergency medic* OR ambulance) AND (discriminat* OR harass* OR violen* OR improper behavio?r OR equali* OR equit*)`
+
+Sana `medic` rajataan lainausmerkeillä, koska huomattiin hakutestauksessa, että ei-sanatarkka haku tuottaa erittäin paljon epärelevanttia tulosta (lääketieteellistä tutkimusta).
+
+Villikortti lauseessa `improper behavio?r` hakee sekä amerikkalaista että brittiläistä kirjoitusasua. Monet hakukoneet osaavat hakea tämän automaattisesti, jolloin kysymysmerkin voi jättää pois jos hakukone ei muuten tätä villikorttia tukisi.
+
+## Muiden turvallisuustoimijoiden haut
+
+**Suomeksi:**
+
+`(poliisi* OR varti* OR puolustusvoim* OR sotila*) AND (syrji* OR häirin* OR häirit* OR väkival* OR painost* OR pahoinpi* OR ahdistel* OR epäasialli* OR yhdenvertai* OR tasa-arvo* OR tasapuoli* OR
+tasavertai*)`
+
+**Ruotsiksi:**
+
+`(polis* OR ordningsv?kt* OR försvars* OR soldat* OR gränsbevak* OR gränskontroll*) AND (diskriminer* OR trakasse* OR påtryck* OR våld* OR osaklig* OR opasslig* OR jämlik* OR jämställd*)`
+
+**Englanniksi:**
+
+`(police OR guard* OR defen?e contractor* OR steward OR soldier OR military personnel) AND (discriminat* OR harass* OR pressur* OR violen* OR improper behavio?r OR equal* OR non-discriminat* OR
+equit*)`
+
+Villikortti `?` lauseissa `defen?e contractor*` ja `improper behavio?r` hakee sekä amerikkalaista että brittiläistä kirjoitusasua. Monet hakukoneet osaavat hakea tämän automaattisesti, jolloin kysymysmerkin voi jättää pois jos hakukone ei muuten tätä villikorttia tukisi.

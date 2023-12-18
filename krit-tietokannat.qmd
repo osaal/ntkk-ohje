@@ -1,1 +1,224 @@
 # Tietokannat {#sec-krit-tietokannat}
+
+Käytämme hankkeessa seuraavia hakukoneita ja tietokantoja:
+
+-   Yhdistysten ja yhteisöjen julkaisukanavat
+
+    -   Suomen Pelastusalan Keskusjärjestö SPEK
+
+    -   Pelastusopisto
+
+    -   Poliisiammattikorkeakoulu Polamk
+
+    -   Valto - Valtioneuvoston yhteinen julkaisuarkisto
+
+-   Korkeakoulujen opinnäytteiden julkaisukanavat
+
+    -   Theseus - ammattikorkeakoulujen julkaisukanavat
+
+    -   Yliopistojen julkaisukanavat
+
+-   Tieteelliset hakukoneet
+
+    -   Scopus
+
+    -   Web of Science
+
+    -   ProQuest
+
+    -   Bielefeld Academic Search Engine BASE
+
+    -   OpenAlex
+
+Näiden lisäksi voidaan käsin ottaa mukaan yksittäisiä tutkimuksia, jos nämä täyttävät kriteeristön ja eivät tulleet mukaan hakuprosessissa. Tällaiset lisätään erikseen tuloksiin hakuprosessin valmistuttua, ja lisäykset dokumentoidaan PRISMA-protokollan mukaisesti.
+
+Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteitä.
+
+## SPEK:in julkaisut
+
+**Osoite:** <https://www.spek.fi/vaikuttaminen/tutkimukset/julkaisut/>
+
+**Saatavuus:** Avoimesti saatavilla
+
+**Sisältö:** SPEK:in omat tutkimusraportit
+
+**Aineistotyyppi:** Ei-vertaisarvioitu yhdistyksen tutkimusraportti
+
+## Pelastusopiston julkaisut
+
+**Osoite:** <https://www.pelastusopisto.fi/kirjasto-ja-tietopalvelut/julkaisut-ja-aineistot/>
+
+**Saatavuus:** Avoimesti saatavilla
+
+**Sisältö:** Pelastusopiston tutkimus-, kehittämis- ja innovaatiopalveluiden omat tutkimusraportit
+
+**Aineistotyyppi:** Ei-vertaisarvioitu viranomaisen tutkimusraportti (pl. palo- ja turvallisuustutkimuksen vuosikirja, joka on vertaisarvioitu).
+
+## Polamk:in julkaisut
+
+**Osoite:** <https://polamk.fi/julkaisutoiminta>
+
+**Saatavuus:** Avoimesti saatavilla
+
+**Sisältö:** Poliisiammattikorkeakoulun tutkimus-, kehittämis- ja innovaatiopalveluiden omat tutkimusraportit
+
+**Aineistotyyppi:** Ei-vertaisarvioitu viranomaisen tutkimusraportti
+
+**Huomioita:** Tämä julkaisukanava ei sisällä Polamk:in opinnäytteitä, eikä näitä julkaisuja löydy Theseus-hakukoneen kautta.
+
+## Valtioneuvoston yhteinen julkaisuarkisto Valto
+
+**Osoite:** <https://julkaisut.valtioneuvosto.fi/>
+
+**Saatavuus:** Avoimesti saatavilla
+
+**Sisältö**: Suomen ministeriöiden omat tutkimusraportit
+
+**Aineistotyyppi:** Ei-vertaisarvioitu viranomaisen tutkimusraportti
+
+**Huomioita:** Julkaisukanava sisältää jokaisen ministeriön, valtioneuvoston, valtioneuvoston kanslian, kehityspoliittisen toimikunnan, lapsiasiavaltuutetun toimiston sekä tasa-arvoasiain neuvottelukunnan julkaisut. Kaikki näistä eivät ole relevantteja hankkeen kannalta, mutta ei myöskään tule luultavasti tuottamaan hakutuloksia. Rajauksia ei siten tarvitse erikseen tehdä.
+
+## Theseus
+
+**Osoite:** <https://www.theseus.fi/>
+
+**Saatavuus:** Avoimesti saatavilla (poikkeuksia löytyy)
+
+**Sisältö:** Suomen ammattikorkeakoulujen opinnäytteet
+
+**Aineistotyyppi:** Opinnäytetyö
+
+**Huomioita:**
+
+-   Theseuksesta löytyy sekä opinnäytteitä että tutkimusjulkaisuja. Hankkeessa haemme vain opinnäytteitä, joten rajaus kannattaa tehdä näihin.
+
+-   Julkaisukanavasta löytyy 28 eri ammattikorkeakoulun tutkimuksia ja opinnäytteitä. Tämän pitäisi kattaa kaikki ammattikorkeakoulut Suomessa, mutta asia pitää vielä erikseen tarkistaa.
+
+    -   Julkaisut voivat myös olla aikaisemmilta AMK:eilta, joita ei enää ole olemassa. Nämä löytyvät pääsääntöisesti nykyisen ammattikorkeakoulun tietokannasta. Näitä ovat Kymenlaakson AMK (Xamk 2017), Lahden AMK (LAB 2020), Mikkelin AMK (Xamk 2017), Saimaan AMK (LAB 2020), Kemi-Tornion AMK (Lapin AMK 2014), Pirkanmaan AMK (Tampereen AMK 2010) ja Rovaniemen AMK (Lapin AMK 2014).
+
+-   AMK-opinnäytteet jaetaan neljään kategoriaan. Hankkeessa haetaan tutkimuksia kaikista neljästä kategoriasta:
+
+    -   AMK-opinnäytetyö (vastaa yliopiston kandidaattitutkinnon opinnäytettä)
+
+    -   Ylempi AMK-opinnäytetyö (vastaa yliopiston maisteritutkinnon opinnäytettä)
+
+    -   Opettaja-AMK-opinnäytetyö (ei yliopistollista vastaavuutta)
+
+    -   Erikoistumisopintojen opinnäytetyö (ei yliopistollista vastaavuutta)
+
+-   Jotkut opinnäytteet voivat olla rajoitetusti saatavilla. Rajoituksina voi olla embargo (ajallisesti rajoitettu saatavuus) tai kokonaisrajaus. Näidenkin kohdalla haemme metadatan seulontaa varten, ja tarpeen vaatiessa teemme tietopyynnöt vedoten Pohjois-Suomen hallinto-oikeuden päätökseen opinnäytteiden luovuttamisesta.
+
+## Yliopistojen julkaisukanavat
+
+**Sisältö:** Suomen yliopistojen opinnäytteet
+
+**Saatavuus:** Avoimesti saatavilla (poikkeuksia löytyy)
+
+**Aineistotyyppi:** Opinnäytetyö
+
+**Huomioita:**
+
+-   Kanavat sisältävät sekä opinnäytteitä että muita tutkimuksia. Hankkeessa haemme vain opinnäytteitä, joten rajaus kannattaa tehdä näihin.
+
+-   Yliopiston opinnäytteet jaetaan jopa viiteen kategoriaan. Näistä me haemme tutkimuksia kaikista viidestä kategoriasta:
+
+    -   Kandidaatin tutkielmat (vastaa AMK-opinnäytetyötä)
+
+    -   Pro gradu -tutkielmat (vastaa ylempää AMK-opinnäytetyötä)
+
+    -   Lisensiaattityö (ei ammattikorkeakoulullista vastaavuutta)
+
+    -   Väitöskirjat (ei ammattikorkeakoulullista vastaavuutta)
+
+    -   Seminaarityöt (ei ammattikorkeakoulullista vastaavuutta)
+
+-   Jotkut opinnäytteet voivat olla rajoitetusti saatavilla. Rajoituksina voi olla embargo (ajallisesti rajoitettu saatavuus) tai kokonaisrajaus. Näidenkin kohdalla haemme metadatan seulontaa varten, ja tarpeen vaatiessa teemme tietopyynnöt vedoten Pohjois-Suomen hallinto-oikeuden päätökseen opinnäytteiden luovuttamisesta.
+
+**Osoitteet:**
+
+| Yliopisto                       | Kanavan nimi | Osoite                                                                       | Huomioita                                                                                                                            |
+|---------------------------------|--------------|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| Aalto-yliopisto                 | Aaltodoc     | <https://aaltodoc.aalto.fi/?locale-attribute=fi>                             |                                                                                                                                      |
+| Helsingin yliopisto             | E-thesis     | <https://ethesis.helsinki.fi/>                                               | Saatavuus vaihtelee tiedekunnan mukaan, mutta yleisesti ottaen 2010-luvun puolen välin jälkeen julkastut tutkielmat löytyvät täältä. |
+| Itä-Suomen yliopisto            | UEF eRepo    | <https://erepo.uef.fi/>                                                      |                                                                                                                                      |
+| Jyväskylän yliopisto            | JYX          | <https://jyx.jyu.fi/>                                                        |                                                                                                                                      |
+| Lapin yliopisto                 | Lauda        | <https://lauda.ulapland.fi/>                                                 | Vuoden 2014 jälkeen gradut taatusti sähköisesti, mutta kaikki eivät ole Laudan kautta luettavissa.                                   |
+| LUT-yliopisto                   | LUTPub       | <https://lutpub.lut.fi/>                                                     |                                                                                                                                      |
+| Oulun yliopisto                 | Jultika      | <http://jultika.oulu.fi/>                                                    | Kandit 2016 eteenpäin, gradut 2013 eteenpäin.                                                                                        |
+| Svenska handelshögskolan Hanken | DHanken      | <https://helda.helsinki.fi/communities/61c8694f-3453-4bd3-a197-32fee3108f66> |                                                                                                                                      |
+| Taideyliopisto                  | Taju         | <https://taju.uniarts.fi/>                                                   |                                                                                                                                      |
+| Tampereen yliopisto             | Trepo        | <https://trepo.tuni.fi/>                                                     | Rajatun lukuoikeuden opinnäytteet erikseen                                                                                           |
+| Turun yliopisto                 | UTUPub       | <https://www.utupub.fi/>                                                     | Rajatun lukuoikeuden opinnäytteet sekä tiivistelmät erikseen                                                                         |
+| Vaasan yliopisto                | Osuva        | <https://osuva.uwasa.fi/>                                                    | Rajatun lukuoikeuden opinnäytteet erikseen                                                                                           |
+| Åbo Akademi                     | Doria        | <https://www.doria.fi/handle/10024/3981>                                     |                                                                                                                                      |
+| Maanpuolustuskorkeakoulu        | Doria        | <https://www.doria.fi/handle/10024/72633>                                    | Epävarmaa, mitä löytyy mistä. Ks. <https://mpkk.libguides.com/opinnaytteet>                                                          |
+
+: Yliopistojen julkaisukanavat {#tbl-yliopistojen-julkaisukanavat}
+
+## Scopus
+
+**Osoite:** <https://www.scopus.com/home.uri>
+
+**Sisältö:** Yleinen tutkimuskirjallisuus
+
+**Saatavuus:** Maksumuurin takana (Polamk:illa ei pääsyä)
+
+**Aineistotyyppi:** Vertaisarvioitu tutkimusraportti, harmaa kirjallisuus
+
+**Huomioita:** Scopuksessa haetaan vain vertaisarvioituja tutkimusraportteja.
+
+## Web of Science
+
+**Osoite:** <https://www.webofscience.com>
+
+**Sisältö**: Yleinen tutkimuskirjallisuus
+
+**Saatavuus:** Maksumuurin takana (Polamk:illa ei pääsyä)
+
+**Aineistotyyppi**: Vertaisarvioitu tutkimusraportti, harmaa kirjallisuus
+
+**Huomioita**: Web of Sciencestä haetaan vain vertaisarvioituja tutkimusraportteja. Nämä löytyvät seuraavista tietokannoista:
+
+-   **Web of Science Core Collection** (luonnontieteet ja matematiikka, yhteiskuntatieteet, humanistiset tieteet ja taidetutkimus)
+
+-   **MEDLINE** (lääketieteet)
+
+## ProQuest
+
+**Osoite:** <https://www.proquest.com/>
+
+**Sisältö:** Yleinen tutkimuskirjallisuus
+
+**Saatavuus**: Maksumuurin takana (Polamk:illa pääsy)
+
+**Aineistotyyppi:** Vertaisarvioitu tutkimusraportti, harmaa kirjallisuus
+
+**Huomioita:** ProQuestista haetaan vain vertaisarvioituja tutkimusraportteja. Nämä löytyvät seuraavista tietokannoista:
+
+-   **Ebook Central** (monitieteelliset tutkimuskirjat; monografiat ja artikkelikokoelmat)
+
+-   **Social Science Premium Collection** (yhteiskuntatieteelliset tutkimusjulkaisut)
+
+## Bielefeld Academic Search Engine BASE
+
+**Osoite:** <https://www.base-search.net/>
+
+**Sisältö**: Yleinen tutkimuskirjallisuus
+
+**Saatavuus:** Avoimesti saatavilla (mutta julkaisut voivat olla rajattuja)
+
+**Aineistotyyppi**: Vertaisarvioitu tutkimusraportti, harmaa kirjallisuus
+
+**Huomioita**: BASE:sta haetaan vain vertaisarvioituja tutkimusraportteja.
+
+## OpenAlex
+
+**Osoite:** <https://openalex.org/>
+
+**Sisältö**: Yleinen tutkimuskirjallisuus
+
+**Saatavuus:** Avoimesti saatavilla (mutta julkaisut voivat olla rajattuja)
+
+**Aineistotyyppi**: Vertaisarvioitu tutkimusraportti, harmaa kirjallisuus
+
+**Huomioita**: OpenAlexista haetaan vain vertaisarvioituja tutkimusraportteja.
