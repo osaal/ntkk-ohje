@@ -1,5 +1,8 @@
 ---
 title: "Kirjallisuuskatsauksen ohje"
+author: "Oliver Saal"
+date-modified: today
+lang: fi
 ---
 
 Tämä verkkosivu sisältää *Nollatoleranssi*-hankkeen systemaattisen kirjallisuuskatsauksen ohjeen. Sivuston sisältö on tarkoitettu hankkeen sisäiseen työskentelyyn, eikä sitä tulisi jakaa eteenpäin tai käyttää muissa yhteyksissä.

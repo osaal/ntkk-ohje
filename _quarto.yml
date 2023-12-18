@@ -8,8 +8,42 @@ website:
     background: primary
     search: true
     left:
-      - href: index.qmd
-        text: Etusivu
+      - text: "Etusivu"
+        file: index.qmd
+      - sidebar:kriteeristo
+      - sidebar:tietolahteet
+      - sidebar:hakeminen
+      - sidebar:dokumentointi
+      - sidebar:hakulausekkeet
+  
+  sidebar:
+    - id: kriteeristo
+      title: "Kriteeristö"
+      style: "docked"
+      background: primary
+      collapse-level: 2
+      contents:
+        - kriteeristo.qmd
+        
+    - id: tietolahteet
+      title: "Tietolähteet"
+      contents:
+        - tietolahteet.qmd
+        
+    - id: hakeminen
+      title: "Hakujen suorittaminen"
+      contents:
+        - hakeminen.qmd
+        
+    - id: dokumentointi
+      title: "Dokumentointi"
+      contents:
+        - dokumentointi.qmd
+        
+    - id: hakulausekkeet
+      title: "Hakulausekkeet"
+      contents:
+        - hakulausekkeet.qmd
 
 format:
   html:
