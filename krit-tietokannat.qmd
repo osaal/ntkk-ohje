@@ -5,29 +5,21 @@ Käytämme hankkeessa seuraavia hakukoneita ja tietokantoja:
 -   Yhdistysten ja yhteisöjen julkaisukanavat
 
     -   Suomen Pelastusalan Keskusjärjestö SPEK
-
     -   Pelastusopisto
-
     -   Poliisiammattikorkeakoulu Polamk
-
     -   Valto - Valtioneuvoston yhteinen julkaisuarkisto
 
 -   Korkeakoulujen opinnäytteiden julkaisukanavat
 
     -   Theseus - ammattikorkeakoulujen julkaisukanavat
-
     -   Yliopistojen julkaisukanavat
 
 -   Tieteelliset hakukoneet
 
     -   Scopus
-
     -   Web of Science
-
     -   ProQuest
-
     -   Bielefeld Academic Search Engine BASE
-
     -   OpenAlex
 
 Näiden lisäksi voidaan käsin ottaa mukaan yksittäisiä tutkimuksia, jos nämä täyttävät kriteeristön ja eivät tulleet mukaan hakuprosessissa. Tällaiset lisätään erikseen tuloksiin hakuprosessin valmistuttua, ja lisäykset dokumentoidaan PRISMA-protokollan mukaisesti.
@@ -137,7 +129,7 @@ Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteit�
 **Osoitteet:**
 
 | Yliopisto                       | Kanavan nimi | Osoite                                                                       | Huomioita                                                                                                                            |
-|-------------|-------------|----------------|-------------------------------|
+|---------------------------------|--------------|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | Aalto-yliopisto                 | Aaltodoc     | <https://aaltodoc.aalto.fi/?locale-attribute=fi>                             |                                                                                                                                      |
 | Helsingin yliopisto             | E-thesis     | <https://ethesis.helsinki.fi/>                                               | Saatavuus vaihtelee tiedekunnan mukaan, mutta yleisesti ottaen 2010-luvun puolen välin jälkeen julkastut tutkielmat löytyvät täältä. |
 | Itä-Suomen yliopisto            | UEF eRepo    | <https://erepo.uef.fi/>                                                      |                                                                                                                                      |

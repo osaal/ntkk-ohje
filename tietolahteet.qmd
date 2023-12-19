@@ -1,1 +1,25 @@
-# Tietolähteet {#sec-tietolahteet}
+# Yleisesti tietolähteistä {#sec-tietolahteet}
+
+Hankkeessa käytetään useita eri tietolähteitä ja hakukoneita riippuen osahausta. Lähteet ovat valittuja kattaakseen sekä vertaisarvioitua tutkimuskirjallisuutta että harmaata kirjallisuutta. Käytämme seuraavia hakukoneita ja tietokantoja:
+
+-   Yhdistysten ja yhteisöjen julkaisukanavat
+
+    -   Suomen Pelastusalan Keskusjärjestö SPEK
+    -   Pelastusopisto
+    -   Poliisiammattikorkeakoulu Polamk
+    -   Valto - Valtioneuvoston yhteinen julkaisuarkisto
+
+-   Korkeakoulujen opinnäytteiden julkaisukanavat
+
+    -   Theseus - ammattikorkeakoulujen julkaisukanavat
+    -   Yliopistojen julkaisukanavat
+
+-   Tieteelliset hakukoneet
+
+    -   Scopus
+    -   Web of Science
+    -   ProQuest
+    -   Bielefeld Academic Search Engine BASE
+    -   OpenAlex
+
+Yleistietoa tietokannoista löydät [luvusta -@sec-krit-tietokannat]. Tässä osiossa käydään läpi tietokantojen ja hakukoneiden käyttö käytännön työssä.

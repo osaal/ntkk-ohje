@@ -1,0 +1,92 @@
+# Scopus {#sec-tiet-scopus}
+
+**Osoite:** <https://www.scopus.com/home.uri>
+
+**Sisältö:** Yleinen tutkimuskirjallisuus
+
+**Saatavuus:** Maksumuurin takana (Polamk:illa ei pääsyä)
+
+**Aineistotyyppi:** Vertaisarvioitu tutkimusraportti, harmaa kirjallisuus
+
+**Huomioita:** Scopuksessa haetaan vain vertaisarvioituja tutkimusraportteja.
+
+![Scopus-palvelun perushaun näkymä](pics/scopus_perushaku.png){#fig-scopus-perushaku fig-align="center"}
+
+Kirjautuessasi Scopukseen näet ensin perushaun näkymän (@fig-scopus-perushaku). Perushaku on varsin toimiva, mutta voit myös halutessasi vaihtaa erityisen haun näkymään, josta löytyy hieman helpommin kaikki mahdolliset rajaukset ja hakulausekkeeseen liittyvät toiminnot.
+
+## Hakulausekkeen muokkaaminen
+
+**Scopuksessa määritellään useimmat rajaukset hakulausekkeessa**. Hakukone tottelee seuraavia sääntöjä hakulausekkeen kirjoittamisessa:
+
+-   `OR` ja `AND` toimivat kuten yleisesti.
+-   `NOT` pitää ilmaista muodossa `AND NOT`.
+-   Fraasihaku ilmaistaan lainausmerkeillä `""` ja merkkitarkka haku (jokaisen merkin tulee vastata tarkasti) ilmaistaan aaltosuluilla `{}`.
+    -   Lainausmerkit **eivät** takaa merkkitarkkaa hakutulosta, vaan hakevat vain löysästi lauseena. Scopus laajentaa haut koskemaan monikkomuotoja ja vaihtoehtoisia kirjoitusmuotoja automaattisesti, eli `"heart attack"` hakee myös `heart attacks`. Haku `anestesia` hakee myös `anaesthesia`.
+    -   Viivat `-` ja pisteet `.` tulkitaan löysänä hakuna: `heart-attack` ja `heart.attack` ovat samat kuin `"heart attack"`.
+    -   Villikortit toimivat fraasihaussa mutta **eivät** aaltosuluissa.
+-   Boolelaisissa merkeissä on oma tulkintajärjestyksensä: ensin `OR`, sitten `AND`, sitten `AND NOT`. Esimerkiksi `mouse AND NOT cat OR dog` tulkitaan `(mouse) AND NOT (cat OR dog)`. Tätä voi kuitenkin muokata suluilla `()`, mitä suositellaan.
+-   Hakuja voi kohdentaa tiettyihin kohtiin käyttämällä *kenttäkoodeja.* Kenttäkoodit ilmaistaan aina muodossa `koodi(haku)`, eli ensin koodi, sitten sulut heti koodin perään (ei välilyöntiä), ja sulkujen sisälle hakulauseke. Koodeja löytyy yli 60 kappaletta, joista tärkeimmät ovat:
+    -   `ALL`: Hakee kaikesta mahdollisesta tekstistä.
+    -   `TITLE-ABS-KEY`: Hakee otsikosta, tiivistelmästä ja avainsanoista (mutta ei muusta tekstistä). Jokaisen voi myös määrittää erikseen, `TITLE`, `ABS` ja/tai `KEY`.
+    -   `INDEX`: Määrittelee, mistä tietokannasta haetaan tietoja. Voidaan myös yhdistää `AND NOT`-sanaan, jolloin jätetään tietty tietokanta pois.
+    -   `PUBYEAR`: Määrittelee julkaisuvuoden. Ottaa erillisavainsanat `BEF` (ennen), `AFT` (jälkeen), `IS` (tarkka vuosi). Yhdistelemällä näitä ja boolelaisia avainsanoja voidaan rakentaa vuosiväli: `PUBYEAR BEF 2024 AND PUBYEAR AFT 2009` hakee julkaisuja aikavälistä 2010-2023. \[TÄMÄ PITÄÄ VIELÄ TARKISTAA, ETTÄ HAKU ON EKSKLUSIIVINEN EIKÄ INKLUSIIVINEN\].
+    -   `DOCTYPE`: Määrittelee dokumentin muodon. Vaihtoehdot ovat: artikkeli `ar`, abstraktiraportti `ab`, kirja `bk`, kirjaluku `ch`, kaupallinen artikkeli `bz`, konferenssipaperi `cp`, konferenssi-review `cr`, datajulkaisu `dp`, päätoimitus `ed`, korjaus `er`, kirje `le`, huomautus `no`, tiedotus `pr`, raportti `rp`, poistettu `tb`, review-artikkeli `re`, lyhyt katsaus `sh`. Käytämme pääsääntöisesti artikkelia, kirjaa ja kirjalukua.
+    -   `SRCTYPE`: Määrittelee julkaisumuodon. Vaihtoehdot ovat: aikakauslehti `j`, kirja `b`, kirjasarja `k` tai konferenssijulkaisu `p`. Tällä voi varmistaa ettei konferenssijulkaisut tule mukaan (`AND NOT SRCTYPE(p)`).
+
+Esimerkkinä olen suorittanut seuraavan haun:
+
+`TITLE-ABS-KEY(("fire rescue*" OR "fire*fighter*" OR "rescue service*" OR "emergency respon*" OR "emergency personnel" OR {medic} OR "emergency medic*" OR ambulance) AND (discriminat* OR harass* OR violen* OR "improper behavior" OR equali* OR equit*)) AND (PUBYEAR BEF 2024 AND PUBYEAR AFT 2009) AND (DOCTYPE(ar) OR DOCTYPE(bk) OR DOCTYPE(ch)) AND NOT SRCTYPE(p)`
+
+-   Hakusanat haetaan otsikosta, tiivistelmästä ja avainsanoista `TITLE-ABS-KEY`-sanalla.
+-   Kaikki fraasit ovat ympäröitynä lainausmerkeillä, esim. `"fire rescue*"`.
+-   Sana *medic* on ympäröity aaltosuluilla, ettei tulisi mukaan yleisiä lääketieteellisiä tuloksia `{medic}`.
+-   Aikarajaus on määritelty lauseella `(PUBYEAR BEF 2024 AND PUBYEAR AFT 2009)`.
+-   Dokumenttityypit ovat määritelty lauseella `(DOCTYPE(ar) OR DOCTYPE(bk) OR DOCTYPE(ch)`.
+-   Konferenssijulkaisut ovat rajattuna pois lauseella `AND NOT SRCTYPE(p)`.
+
+Tuloksia on kuitenkin tässä vaiheessa liikaa (@fig-scopus-haku1), joten teen vielä manuaalisia rajauksia.
+
+![Ensimmäinen haku Scopuksessa. Haku tuotti 2229 tulosta, mikä on erittäin paljon.](pics/scopus_hakutulos1.png){#fig-scopus-haku1 fig-align="center"}
+
+Vasemmalla puolella on rajauspalkki, johon voi manuaalisesti tehdä lisärajauksia monessa eri kategoriassa. Rajaukset voi tehdä **positiivisena** ("ota mukaan vain nämä", `Limit to`-nappi) tai **negatiivisena** ("ota mukaan kaikki paitsi nämä", `Exclude`-nappi), riippuen siitä, mikä on helpompi.
+
+Huomaa, että Scopus toteuttaa haun uudestaan joka kerran, kun rajaat. Varsinkin maantieteellinen rajaus voi kestää kauan, koska rajausehtoja on useita.
+
+**Rajauspalkista asetan seuraavat asetukset**:
+
+-   **Kieli** rajataan englanniksi (tämän voi tehdä myös hakulausekefraasilla `LANGUAGE(en)`).
+-   **Alueet** rajataan eurooppalaisiin maihin. Otan myös mukaan kategorian `undefined`, koska siellä voi olla eurooppalaista tutkimusta jota Scopus ei jostain syystä ole kategorisoinut maantieteellisesti.
+
+Kun rajaukset tehdään, Scopus syöttää ne valmiiksi hakulausekkeeseen. Näin voidaan toteuttaa sama haku uudelleen käyttämällä samaa hakulauseketta.
+
+Voit tarkastella halutessasi koko hakulauseketta painamalla hakukentän alla olevaa `Edit in advanced search`-nappia:
+
+![Scopuksen Advanced Search -näkymä. Hakulauseke on valmiina, ja sen voi kopioida suoraan tekstikentästä dokumentointiin. Painamalla "Search" toteutan haun.](pics/scopus_lausekkeentarkastus.png){#fig-scopus-lausekkeentarkastus fig-align="center"}
+
+## Tulosten lataaminen
+
+Kun olet valmis haun kanssa, voit ladata tulokset omalle koneellesi:
+
+-   Hakutulosten yläpalkissa, valitse `All > Select all`
+
+-   Paina `Export > CSV`
+
+-   Poista kaikki täpät ja valitse vain `Document title`, `Year` sekä `DOI`
+
+-   Paina `Export`
+
+Latauksessa kestää pieni hetki, mutta lopussa saat ladattuihin tiedostoihisi `scopus.csv`-nimisen tiedoston.
+
+-   Avaa tyhjä Excel-taulukko. Valitse `Tiedot > Nouda tiedot > Tiedostosta > Tekstistä/CSV:stä`
+
+-   Hae esille ladattu CSV-tiedosto ja paina `OK`.
+
+-   Jos kaikki meni oikein, näet esikatselunäkymän joka näyttää taulukkotiedostolta:
+
+![CSV-tiedoston avaaminen Excelissä. Ohjelma on automaattisesti lukenut tiedoston taulukkomuotoon. Jos tämä ei näytä oikealta, kokeile vaihtaa erotinta pudotusvalikosta.](pics/scopus_csvexcelissä.png){fig-align="center"}
+
+-   Paina `Lataa`.
+
+-   Poista joko `Link`- tai `DOI`-sarake. Molemmat antavat linkin artikkelin verkkosijaintiin; `Link` osoittaa Scopuksen omaan metadatakirjaukseen, kun taas `DOI` tulee ohjaamaan artikkelin alkuperäiseen sijaintiin.
+
+Voit nyt valita kaikki tulokset (vie osoitin soluun `A1` ja paina `Ctrl + oikea` valitaksesi seuraavat sarakkeet, ja sitten `Ctrl + alas` valitaksesi kaikki rivit) ja kopioida ne suoraan tulostaulukkoosi.

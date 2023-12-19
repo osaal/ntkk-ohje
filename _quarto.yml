@@ -18,7 +18,11 @@ book:
         - krit-tutkimuskieli.qmd
         - krit-aineistotyyppi.qmd
         - krit-tietokannat.qmd
-    - tietolahteet.qmd
+    - part: "Tietolähteet"
+      chapters:
+      - tietolahteet.qmd
+      - tiet-scopus.qmd
+      - tiet-webofscience.qmd
     - hakeminen.qmd
     - dokumentointi.qmd
     - hakulausekkeet.qmd
@@ -55,6 +59,7 @@ book:
       title: "Tietolähteet"
       contents:
         - tietolahteet.qmd
+        - tiet-scopus.qmd
         
     - id: hakeminen
       title: "Hakujen suorittaminen"
