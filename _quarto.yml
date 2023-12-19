@@ -60,6 +60,7 @@ book:
       contents:
         - tietolahteet.qmd
         - tiet-scopus.qmd
+        - tiet-webofscience.qmd
         
     - id: hakeminen
       title: "Hakujen suorittaminen"
