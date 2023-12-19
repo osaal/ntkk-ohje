@@ -1,4 +1,4 @@
-# Kriteeristö {#sec-kriteeristo}
+# Yleisesti kriteeristöstä {#sec-kriteeristo}
 
 Hankkeessa sovelletaan kahta kriteeristöä: kaikille yleiset kriteerit sekä hakukohtaiset kriteerit.
 

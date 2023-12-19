@@ -12,7 +12,7 @@ Hankkeessa haemme seuraavia aineistotyyppejä:
 
 Tällä sivulla määrittelemme tarkemmin, mitä jokainen rajaus tarkoittaa.
 
-## Vertaisarvioidut tutkimusraportit
+## Vertaisarvioidut tutkimusraportit {#sec-vertaisarvioidut-tutkimusraportit}
 
 **Vertaisarvioitu tutkimusraportti** on tutkimuksen lopussa kirjoitettu teksti, joka on kokonaisuudessaan tai osissa **vertaisarvioitu**. Vertaisarvioinnissa toiset tutkijat tarkistavat tekstin ja antavat palautetta tutkimuksen tieteellisestä laadusta. Vertaisarvioinnilla pyritään takaamaan tieteellisten tulosten luotettavuus ja minimoimaan yksittäisten tutkijoiden vahingollisia virheitä tai ajatusvinoumia.
 
@@ -48,7 +48,7 @@ Kun tässä hankkeessa puhutaan vertaisarvioiduista tutkimusraporteista, **inklu
 
 [Muista tarkistaa artikkelien julkaisulehtien vertaisarviointistatus]{.underline} ennen lopullista päätöstä mukaan ottamisesta!
 
-## Viranomaisraportit
+## Viranomaisraportit {#sec-viranomaisraportit}
 
 Viranomaisraporteilla tarkoitetaan Suomen viranomaisten julkaisemia tutkimusraportteja ja katsauksia. "Viranomainen" on tässä kontekstissa määritelty valtionhallintoon, ministeriöihin ja niiden hallinnonalalla toimiviin virastoihin. Tärkeitä viranomaisia hankkeen kannalta ovat mm.:
 
@@ -60,13 +60,13 @@ Viranomaisraporteilla tarkoitetaan Suomen viranomaisten julkaisemia tutkimusrapo
 
 Nämä raportit useimmiten eivät ole vertaisarvioituja. NIiden sisältö on kuitenkin tärkeää hankkeelle, koska suuri osa syrjinnän ja häirinnän tutkimuksesta on voitu toteuttaa vain viranomaisraportteina.
 
-## Yhdistysten tutkimusraportit
+## Yhdistysten tutkimusraportit {#sec-yhdistysten-tutkimusraportit}
 
 Yhdistysten tutkimusraporteilla tarkoitetaan Suomen pelastusalan järjestöjen itse julkaisemia tutkimusraportteja ja katsauksia. Julkaisevia järjestöjä on yksi: Suomen Pelastusalan Keskusjärjestö, SPEK.
 
 Nämä tutkimusraportit seuraavat pitkältä viranomaisraporttien muotoa, ja ovat useimmiten ei-vertaisarvioituja. Niidenkin sisällyttäminen on tärkeää, koska SPEK tuottaa suuren osan Suomen pelastusalaa koskevasta tutkimuksesta.
 
-## Opinnäytteet
+## Opinnäytteet {#sec-opinnäytteet}
 
 Opinnäytteillä tarkoitetaan Suomen korkeakouluissa tuotettuja opintojen opinnäytetöitä, jotka liittyvät kolmannen syklin tai tutkimuksellisen opetuksen tutkintoihin. Näitä ovat kandidaatti-, maisteri-, lisensiaatti-, tohtori-, AMK- ja ylempään AMK-tutkintoihin liittyvät opinnäytteet. Siten ulkopuolelle rajataan mahdolliset seminaarityöt, jotka eivät liity suoraan korkeakoulujen tutkintoihin (esim. toisen asteen tutkintojen työt).
 

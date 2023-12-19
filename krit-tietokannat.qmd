@@ -34,7 +34,7 @@ Näiden lisäksi voidaan käsin ottaa mukaan yksittäisiä tutkimuksia, jos näm
 
 Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteitä.
 
-## SPEK:in julkaisut
+## SPEK:in julkaisut {#sec-spekin-julkaisut}
 
 **Osoite:** <https://www.spek.fi/vaikuttaminen/tutkimukset/julkaisut/>
 
@@ -44,7 +44,7 @@ Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteit�
 
 **Aineistotyyppi:** Ei-vertaisarvioitu yhdistyksen tutkimusraportti
 
-## Pelastusopiston julkaisut
+## Pelastusopiston julkaisut {#sec-pelastusopiston-julkaisut}
 
 **Osoite:** <https://www.pelastusopisto.fi/kirjasto-ja-tietopalvelut/julkaisut-ja-aineistot/>
 
@@ -54,7 +54,7 @@ Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteit�
 
 **Aineistotyyppi:** Ei-vertaisarvioitu viranomaisen tutkimusraportti (pl. palo- ja turvallisuustutkimuksen vuosikirja, joka on vertaisarvioitu).
 
-## Polamk:in julkaisut
+## Polamk:in julkaisut {#sec-polamkin-julkaisut}
 
 **Osoite:** <https://polamk.fi/julkaisutoiminta>
 
@@ -66,7 +66,7 @@ Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteit�
 
 **Huomioita:** Tämä julkaisukanava ei sisällä Polamk:in opinnäytteitä, eikä näitä julkaisuja löydy Theseus-hakukoneen kautta.
 
-## Valtioneuvoston yhteinen julkaisuarkisto Valto
+## Valtioneuvoston yhteinen julkaisuarkisto Valto {#sec-valtioneuvoston-yhteinen-julkaisuarkisto-valto}
 
 **Osoite:** <https://julkaisut.valtioneuvosto.fi/>
 
@@ -78,7 +78,7 @@ Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteit�
 
 **Huomioita:** Julkaisukanava sisältää jokaisen ministeriön, valtioneuvoston, valtioneuvoston kanslian, kehityspoliittisen toimikunnan, lapsiasiavaltuutetun toimiston sekä tasa-arvoasiain neuvottelukunnan julkaisut. Kaikki näistä eivät ole relevantteja hankkeen kannalta, mutta ei myöskään tule luultavasti tuottamaan hakutuloksia. Rajauksia ei siten tarvitse erikseen tehdä.
 
-## Theseus
+## Theseus {#sec-theseus}
 
 **Osoite:** <https://www.theseus.fi/>
 
@@ -108,7 +108,7 @@ Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteit�
 
 -   Jotkut opinnäytteet voivat olla rajoitetusti saatavilla. Rajoituksina voi olla embargo (ajallisesti rajoitettu saatavuus) tai kokonaisrajaus. Näidenkin kohdalla haemme metadatan seulontaa varten, ja tarpeen vaatiessa teemme tietopyynnöt vedoten Pohjois-Suomen hallinto-oikeuden päätökseen opinnäytteiden luovuttamisesta.
 
-## Yliopistojen julkaisukanavat
+## Yliopistojen julkaisukanavat {#sec-yliopistojen-julkaisukanavat}
 
 **Sisältö:** Suomen yliopistojen opinnäytteet
 
@@ -137,7 +137,7 @@ Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteit�
 **Osoitteet:**
 
 | Yliopisto                       | Kanavan nimi | Osoite                                                                       | Huomioita                                                                                                                            |
-|---------------------------------|--------------|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+|-------------|-------------|----------------|-------------------------------|
 | Aalto-yliopisto                 | Aaltodoc     | <https://aaltodoc.aalto.fi/?locale-attribute=fi>                             |                                                                                                                                      |
 | Helsingin yliopisto             | E-thesis     | <https://ethesis.helsinki.fi/>                                               | Saatavuus vaihtelee tiedekunnan mukaan, mutta yleisesti ottaen 2010-luvun puolen välin jälkeen julkastut tutkielmat löytyvät täältä. |
 | Itä-Suomen yliopisto            | UEF eRepo    | <https://erepo.uef.fi/>                                                      |                                                                                                                                      |
@@ -155,7 +155,7 @@ Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteit�
 
 : Yliopistojen julkaisukanavat {#tbl-yliopistojen-julkaisukanavat}
 
-## Scopus
+## Scopus {#sec-scopus}
 
 **Osoite:** <https://www.scopus.com/home.uri>
 
@@ -167,7 +167,7 @@ Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteit�
 
 **Huomioita:** Scopuksessa haetaan vain vertaisarvioituja tutkimusraportteja.
 
-## Web of Science
+## Web of Science {#sec-web-of-science}
 
 **Osoite:** <https://www.webofscience.com>
 
@@ -183,7 +183,7 @@ Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteit�
 
 -   **MEDLINE** (lääketieteet)
 
-## ProQuest
+## ProQuest {#sec-proquest}
 
 **Osoite:** <https://www.proquest.com/>
 
@@ -199,7 +199,7 @@ Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteit�
 
 -   **Social Science Premium Collection** (yhteiskuntatieteelliset tutkimusjulkaisut)
 
-## Bielefeld Academic Search Engine BASE
+## Bielefeld Academic Search Engine BASE {#sec-bielefeld-academic-search-engine-base}
 
 **Osoite:** <https://www.base-search.net/>
 
@@ -211,7 +211,7 @@ Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteit�
 
 **Huomioita**: BASE:sta haetaan vain vertaisarvioituja tutkimusraportteja.
 
-## OpenAlex
+## OpenAlex {#sec-openalex}
 
 **Osoite:** <https://openalex.org/>
 

@@ -26,7 +26,7 @@ Hakeminen suoritetaan osahakukohtaisesti (haut 1-6). Jokaiselle haulle seurataan
 8.  Lisää tässä vaiheessa muilla menetelmillä löydetyt tutkimukset määrään
 9.  Kirjaa lopullinen tutkimusmäärä PRISMA-kulkukaaviota varten
 
-## Osa 1: Haun suorittaminen
+## Osa 1: Haun suorittaminen {#sec-osa-1-haun-suorittaminen}
 
 Tutustu haun kriteeristöön ja tietokantoihin. Tarkista varsinkin tietokantojen toimintaohjeet, jotta pystyt muokkaamaan hakulausekkeen sopivaan muotoon.
 
@@ -52,7 +52,7 @@ Hakukonekohtaiset ohjeet hakemiselle löytyvät erikseen tältä ohjesivustolta.
 
 Myöhemmän käsittelyn kannalta oleellisimmat tiedot ovat tutkimuksen otsikko, julkaisuvuosi sekä linkki tutkimukseen. Linkkinä suositellaan ensisijaisesti kestolinkkejä, esimerkiksi DOI-, URN- tai URI-numeroita. Jos näitä ei löydy tai ei ole saatavilla, myös tavallinen linkki käy.
 
-## Osa 2: Duplikaattien poisto
+## Osa 2: Duplikaattien poisto {#sec-osa-2-duplikaattien-poisto}
 
 Aloita duplikaattien poisto vasta, kun olet suorittanut **kaikki** osahaun tietokantahaut! Muuten joudut tekemään tuplatyötä myöhemmin.
 
@@ -76,7 +76,7 @@ Excelissä voit tunnistaa ja poistaa duplikaatit automatisoidusti:
 
 -   Seuraavia kohtia varten oletetaan, että olet asettanut duplikaatit piiloon suodattimella (valitse nuoli duplikaattikirjauksen sarakkeen kohdalla \> poista täppä suodattimen merkinnän vierestä, esim. 1 \> OK)
 
-## Osa 3: Seulonta
+## Osa 3: Seulonta {#sec-osa-3-seulonta}
 
 **Aloita seulonta otsikoiden pohjalta**.
 
@@ -138,7 +138,7 @@ Lopussa pitäisi jokaiselle tutkimukselle olla määritelty, onko se mukana vai 
 *Kirjaa kunka monta tulosta seulottiin pois tiivistelmän pohjalta, ja mistä syystä. Ryhmitä syyt yhteen. Esimerkkisyitä: Ei vastaa kohderyhmää, ei ole empiirinen, ei täytä julkaisuaikakriteeriä, ei ole vertaisarvioitu.*
 :::
 
-## Osa 4: Loppukirjaukset ja tutkimusten lataaminen
+## Osa 4: Loppukirjaukset ja tutkimusten lataaminen {#sec-osa-4-loppukirjaukset-ja-tutkimusten-lataaminen}
 
 Voit nyt ladata jokaisen tutkimuksen PDF-tiedoston tai vastaavan omalle koneellesi. Vaihtoehtoisesti voit lukea tutkimuksia myös verkossa lataamatta tiedostoja -- kyse on omasta mieltymyksestäsi, mutta yleensä tiedoston löytyminen koneen kansiosta helpottaa työtä.
 

@@ -2,7 +2,7 @@
 
 Hankkeessa käytetään maantieteellisiä rajauksia eri tavoin hakujen yhteydessä. Rajaukset ovat suomalaiset tutkimukset sekä eurooppalaiset tutkimukset pois lukien Suomi.
 
-## Suomalaiset tutkimukset
+## Suomalaiset tutkimukset {#sec-suomalaiset-tutkimukset}
 
 Rajaus toteutetaan kahdella tavalla. Ensinnäkin, suomalaisia tutkimuksia haetaan suomenkielisellä hakulausekkeella. Voidaan olettaa, että suomeksi julkaistu empiirinen tutkimus on myös toteutettu Suomessa. Tulokset tulee kuitenkin tarkistaa lopullisen analyysin kohdalla, ettei mukaan tule suomeksi kirjoitettuja tutkimuksia jotka eivät ole empiirisesti toteutettu Suomessa.
 
@@ -12,7 +12,7 @@ Toisena rajaustoteutuksena haemme suomalaisia tutkimuksia osittain eri tietokann
 
 Täten maantieteellistä rajausta ei suomalaisten tutkimusten kannalta tarvitse erikseen tehdä hakukoneissa tai tietokannoissa.
 
-## Eurooppalaiset tutkimukset
+## Eurooppalaiset tutkimukset {#sec-eurooppalaiset-tutkimukset}
 
 Eurooppalaisilla tutkimuksilla tarkoitetaan tutkimuksia, jotka käsittelevät empiirisesti seuraavia maita:
 

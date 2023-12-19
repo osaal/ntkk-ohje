@@ -1,9 +1,28 @@
 project:
-  type: website
+  type: book
   output-dir: docs
 
-website:
+book:
   title: "Kirjallisuuskatsauksen ohje"
+  author: "Oliver Saal"
+  
+  chapters:
+    - index.qmd
+    - part: "Kriteeristö"
+      chapters: 
+        - kriteeristo.qmd
+        - krit-aika.qmd
+        - krit-metodologia.qmd
+        - krit-kohderyhma.qmd
+        - krit-maantiede.qmd
+        - krit-tutkimuskieli.qmd
+        - krit-aineistotyyppi.qmd
+        - krit-tietokannat.qmd
+    - tietolahteet.qmd
+    - hakeminen.qmd
+    - dokumentointi.qmd
+    - hakulausekkeet.qmd
+  
   navbar:
     background: primary
     search: true
