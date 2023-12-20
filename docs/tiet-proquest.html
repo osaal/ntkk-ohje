@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./tiet-base.html" rel="next">
 <link href="./tiet-webofscience.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -146,6 +147,14 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="./tiet-proquest.html" rel="" target="">
  <span class="dropdown-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">ProQuest</span></span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./tiet-base.html" rel="" target="">
+ <span class="dropdown-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Bielefeld Academic Search Engine (BASE)</span></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./tiet-openalex.html" rel="" target="">
+ <span class="dropdown-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">OpenAlex</span></span></a>
+  </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
@@ -155,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-hakujen-suorittaminen">    
         <li>
     <a class="dropdown-item" href="./hakeminen.html" rel="" target="">
- <span class="dropdown-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Hakujen suorittaminen</span></span></a>
+ <span class="dropdown-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Hakujen suorittaminen</span></span></a>
   </li>  
     </ul>
   </li>
@@ -166,7 +175,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-dokumentointi">    
         <li>
     <a class="dropdown-item" href="./dokumentointi.html" rel="" target="">
- <span class="dropdown-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Dokumentointi</span></span></a>
+ <span class="dropdown-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Dokumentointi</span></span></a>
   </li>  
     </ul>
   </li>
@@ -219,6 +228,18 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./tiet-proquest.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">ProQuest</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tiet-base.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Bielefeld Academic Search Engine (BASE)</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tiet-openalex.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">OpenAlex</span></span></a>
   </div>
 </li>
     </ul>
@@ -274,6 +295,19 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p>Kirjautuessasi ProQuestiin näet ensimmäisenä perushaun (<a href="#fig-proquest-perushaku">Kuva&nbsp;<span>13.1</span></a>). Haun yläpalkista voit vaihtaa Advanced Search -hakuun, mikä toimii paremmin meidän hankkeen kannalta, sekä vaihtaa tietokannat Change Databases -napista.</p>
 <p>Aloita vaihtamalla tietokannat. Hakumme kohdistuu Ebook Centraliin sekä Social Science Premium Collectioniin, eli muut tietokannat jätetään pois.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tärkeää
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Tee heti tässä vaiheessa ilmainen tili ProQuestiin! Ilman rekisteröitymistä et voi ladata useamman tuloksen kuin sata (Päivässä? Kuukaudessa? En ole varma…), ja ProQuest vaatii myös usein CAPTCHA-haasteen ratkaisemista ei-rekisteröityneiltä käyttäjiltä.</p>
+</div>
+</div>
 <section id="hakulausekkeen-muodostaminen" class="level2" data-number="13.1">
 <h2 data-number="13.1" class="anchored" data-anchor-id="hakulausekkeen-muodostaminen"><span class="header-section-number">13.1</span> Hakulausekkeen muodostaminen</h2>
 <p><strong>Advanced Search -alueella</strong> voidaan rakentaa hakulausekkeet kahdella eri tavalla: hakulaatikoissa tai yhtenäisenä hakulausekkeena <strong>Command Line</strong> -työkalun avulla (<a href="#fig-proquest-edistynythaku">Kuva&nbsp;<span>13.2</span></a>).</p>
@@ -285,33 +319,33 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p><strong>ProQuest noudattaa seuraavia hakusääntöjä:</strong></p>
 <ul>
-<li><p>Kaikki välimerkit ohitetaan, esim. <code>.</code>, <code>,</code> ja <code>:</code>.</p></li>
-<li><p>Ns. “pysäytyssanat”, kuten artikkelit <code>a, the, an</code> tai välisanat <code>with, for, of</code>, ohitetaan jos niitä ei erikseen merkitä haettavaksi.</p></li>
-<li><p>Diakriittiset merkinnät kuten umlautit <code>¨</code>, <code>´</code> ohitetaan. Täten <code>å</code> ja <code>a</code> ovat samat symbolit, ja hakevat myös muita kuten <code>á</code> tai <code>â</code>.</p></li>
-<li><p>Boolelaiset sanat <code>AND</code>, <code>OR</code> ja <code>NOT</code> toimivat kuten yleensä.</p></li>
-<li><p>Tulkintajärjestys boolelaisille merkeille on: ensin <code>AND</code>, sitten <code>OR</code>, sitten <code>NOT</code>.</p></li>
-<li><p>Sekä fraasihaku että vaihtoehtoiset kirjoitusasut merkitään lainausmerkeillä <code>"</code>. Esimerkiksi <code>"fire fighter"</code> tai <code>"color"</code>.</p>
+<li>Kaikki välimerkit ohitetaan, esim. <code>.</code>, <code>,</code> ja <code>:</code>.</li>
+<li>Ns. “pysäytyssanat”, kuten artikkelit <code>a, the, an</code> tai välisanat <code>with, for, of</code>, ohitetaan jos niitä ei erikseen merkitä haettavaksi.</li>
+<li>Diakriittiset merkinnät kuten umlautit <code>¨</code>, <code>´</code> ohitetaan. Täten <code>å</code> ja <code>a</code> ovat samat symbolit, ja hakevat myös muita kuten <code>á</code> tai <code>â</code>.</li>
+<li>Boolelaiset sanat <code>AND</code>, <code>OR</code> ja <code>NOT</code> toimivat kuten yleensä.</li>
+<li>Tulkintajärjestys boolelaisille merkeille on: ensin <code>AND</code>, sitten <code>OR</code>, sitten <code>NOT</code>.</li>
+<li>Sekä fraasihaku että vaihtoehtoiset kirjoitusasut merkitään lainausmerkeillä <code>"</code>. Esimerkiksi <code>"fire fighter"</code> tai <code>"color"</code>.
 <ul>
 <li>Vaihtoehtoisia kirjoitusasuja voi hakea myös lainausmerkkien ja aaltosulkujen yhdistelmällä <code>"``{}"</code>. Esimerkiksi <code>"``{color behavior}"</code> löytää <code>colour behavior</code>, <code>colour behaviour</code>, <code>color behaviour</code> ja <code>color behavior</code>.</li>
 </ul></li>
-<li><p>ProQuest tukee seuraavia villikortteja:</p>
+<li>ProQuest tukee seuraavia villikortteja:
 <ul>
-<li><p>Kysymysmerkki <code>?</code>: Korvaa nollan tai yhden merkin.</p></li>
-<li><p>Asteriski <code>*</code>: Korvaa 0-5 merkkiä. Huomaa lyhyempi korvausmäärä kuin muissa hakukoneissa!</p></li>
+<li>Kysymysmerkki <code>?</code>: Korvaa nollan tai yhden merkin.</li>
+<li>Asteriski <code>*</code>: Korvaa 0-5 merkkiä. Huomaa lyhyempi korvausmäärä kuin muissa hakukoneissa!</li>
 </ul></li>
-<li><p>Hakua voi kohdentaa <em>hakukentillä</em>, kuten muissakin hakukoneissa. ProQuestissa voi asettaa useamman hakukentän samaan aikaan, esimerkiksi <code>ABSTRACT,TITLE(hakusana)</code> hakee sekä tiivistelmästä että otsikosta. Huomaa pilkku <strong>ilman</strong> välilyöntiä hakukenttien välillä! Meille tärkeät hakukentät ovat:</p>
+<li>Hakua voi kohdentaa <em>hakukentillä</em>, kuten muissakin hakukoneissa. ProQuestissa voi asettaa useamman hakukentän samaan aikaan, esimerkiksi <code>ABSTRACT,TITLE(hakusana)</code> hakee sekä tiivistelmästä että otsikosta. Huomaa pilkku <strong>ilman</strong> välilyöntiä hakukenttien välillä! Meille tärkeät hakukentät ovat:
 <ul>
-<li><p><code>SUMMARY</code>: Hakee tiivistelmistä, joko tieteellisistä formaaleista tai epäformaaleista tiivistelmistä.</p></li>
-<li><p><code>TITLE</code>: Hakee otsikosta.</p></li>
-<li><p><code>NOFT</code>: Hakee kaikkialta <strong>paitsi</strong> kokotekstistä.</p></li>
-<li><p><code>LOCATION</code>: Hakee maantieteellisen alueen.</p></li>
-<li><p><code>PUBDATE</code>: Hakee aikarajauksella. Rajauksen voi tehdä vuotena (<code>YYYY</code>), vuosi-kuukautena (<code>YYYYMM</code>) tai vuosi-kuukausi-päivänä (<code>YYYYMMDD</code>). Rajauksen voi tehdä haarukkana käyttämällä viivaa <code>-</code>: <code>PUBDATE(20100101-20230930)</code> hakee väliltä 1.1.2010-30.9.2023.</p></li>
-<li><p><code>PEER(yes)</code>: Hakee vain vertaisarvioituja julkaisuja.</p></li>
+<li><code>SUMMARY</code>: Hakee tiivistelmistä, joko tieteellisistä formaaleista tai epäformaaleista tiivistelmistä.</li>
+<li><code>TITLE</code>: Hakee otsikosta.</li>
+<li><code>NOFT</code>: Hakee kaikkialta <strong>paitsi</strong> kokotekstistä.</li>
+<li><code>LOCATION</code>: Hakee maantieteellisen alueen.</li>
+<li><code>PUBDATE</code>: Hakee aikarajauksella. Rajauksen voi tehdä vuotena (<code>YYYY</code>), vuosi-kuukautena (<code>YYYYMM</code>) tai vuosi-kuukausi-päivänä (<code>YYYYMMDD</code>). Rajauksen voi tehdä haarukkana käyttämällä viivaa <code>-</code>: <code>PUBDATE(20100101-20230930)</code> hakee väliltä 1.1.2010-30.9.2023.</li>
+<li><code>PEER(yes)</code>: Hakee vain vertaisarvioituja julkaisuja.</li>
 </ul></li>
 </ul>
 <p>Esimerkkinä olen suorittanut seuraavan haun:</p>
 <p><code>TIABSU(("fire rescue*" OR "fire?fighter*" OR "rescue service*" OR "emergency respon*" OR "emergency personnel" OR "medic" OR "emergency medic*" OR ambulance) AND (discriminat* OR harass* OR violen* OR "improper behavio?r" OR equali* OR equit*)) AND PEER(yes) AND PUBDATE(20100101-20230930)</code></p>
-<p>Asetin myös ProQuestin palauttamaan sata tulosta per sivu.</p>
+<p>Asetin myös ProQuestin palauttamaan sata tulosta per sivu (<a href="#fig-proquest-commandline">Kuva&nbsp;<span>13.3</span></a>).</p>
 <div id="fig-proquest-commandline" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="pics/proquest_commandline.png" class="img-fluid figure-img"></p>
@@ -321,12 +355,9 @@ ul.task-list li input[type="checkbox"] {
 <p>Hakusivulla voi jatkaa haun jalostamista. Tässä vaiheessa kannattaa heti laittaa täppä ruutuun “Show results outside my library’s subscription”, jotta kaikki tulokset (myös ne, joihin pääsy on vaikeampaa) tulevat mukaan. Koska tuloksia on tällä hetkellä hyvin paljon, asetan joitain lisärajoituksia sivupalkista käsin:</p>
 <ul>
 <li><strong>Source type</strong> rajataan vain tieteellisiin julkaisuihin (<code>Scholarly Journals</code>).</li>
-</ul>
-<!-- -->
-<ul>
-<li><p><strong>Document type</strong> rajataan seuraaviin: <code>Article</code>, <code>Case Study</code>, <code>Undefined</code> (jos kirjaukset ovat menneet väärin)</p></li>
-<li><p><strong>Language</strong> rajataan vain englantiin.</p></li>
-<li><p><strong>Location</strong> rajataan vain eurooppalaisiin maihin listauksen mukaan.</p></li>
+<li><strong>Document type</strong> rajataan seuraaviin: <code>Article</code>, <code>Case Study</code>, <code>Undefined</code> (jos kirjaukset ovat menneet väärin)</li>
+<li><strong>Language</strong> rajataan vain englantiin.</li>
+<li><strong>Location</strong> rajataan vain eurooppalaisiin maihin listauksen mukaan.</li>
 </ul>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -338,10 +369,10 @@ Tärkeää
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Kun teet rajauksia useasti, joskus ProQuest pelkää että olet robotti ja vaatii CAPCHA:n täyttämistä. Seuraa ohjeita ja ProQuest palauttaa sinut hakusivulle.</p>
+<p>Kun teet rajauksia useasti, joskus ProQuest pelkää että olet robotti ja vaatii CAPTCHA:n täyttämistä. Seuraa ohjeita ja ProQuest palauttaa sinut hakusivulle. Kirjautumalla palveluun henkilökohtaisella ilmaisella tilillä vältät CAPTCHA-haasteiden jatkuvaa täyttämistä - suosittelen!</p>
 </div>
 </div>
-<p>Lopputuloksina saan noin viisisataa tulosta, mikä kuulostaa jo järkevältä.</p>
+<p>Lopputuloksina saan noin viisisataa tulosta, mikä kuulostaa jo järkevältä (<a href="#fig-proquest-hakutulos">Kuva&nbsp;<span>13.4</span></a>).</p>
 <div id="fig-proquest-hakutulos" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="pics/proquest_hakutulos1.png" class="img-fluid figure-img"></p>
@@ -356,7 +387,7 @@ Tärkeää
 <p><strong>ProQuestista voi hakea korkeintaan 100 tulosta kerralla.</strong> Joudut siis toistamaan prosessin useamman kerran, jos tuloksia on yli sata.</p>
 <p>Aloita valitsemalla kaikki tulokset sivulla hakutulosten yläpalkin täpästä. Paina sitten kolmen pisteen kuvaketta (All save &amp; export options) saadaksesi enemmän, ja valitse vaihtoehdoista Microsoft Excel Format (XLS).</p>
 <p><strong>Content</strong>-kohtaan, aseta “Citation &amp; Abstract Only” (koska muita tietoa ei tarvita tässä vaiheessa). Voit myös laittaa täpän kohtaan “Deselect all items when done”; tämä auttaa seuraavien hakujen tallentamisessa. Kaikki muut asetukset voivat pysyä sellaisinaan.</p>
-<p>Vastaa mahdolliseen CAPTCHA-pyyntöön ja paina sitten <strong>Continue</strong>.</p>
+<p>Vastaa mahdolliseen CAPTCHA-pyyntöön ja paina sitten <strong>Continue</strong> (<a href="#fig-proquest-tallenna">Kuva&nbsp;<span>13.5</span></a>).</p>
 <div id="fig-proquest-tallenna" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="pics/proquest_tallenna.png" class="img-fluid figure-img"></p>
@@ -368,11 +399,11 @@ Tärkeää
 <p>Kun olet ladannut kaikki tulokset, voit sulkea ProQuestin ja siirtyä muotoilemaan tulokset sopivaan muotoon tulos-Exceliisi.</p>
 <p><strong>Tämäkin vaihe tulee toistaa jokaiselle ladatulle Excel-tiedostolle erikseen!</strong></p>
 <ul>
-<li><p>Avaa tulostiedosto.</p></li>
-<li><p>Poista kaikki sarakkeet paitsi: <strong>Title, digitalObjectIdentifier, year</strong></p></li>
-<li><p>Varmista, että sarakkeet ovat samassa järjestyksessä kuin tulos-Excelissäsi.</p></li>
+<li>Avaa tulostiedosto.</li>
+<li>Poista kaikki sarakkeet paitsi: <strong>Title, digitalObjectIdentifier, year</strong></li>
+<li>Varmista, että sarakkeet ovat samassa järjestyksessä kuin tulos-Excelissäsi.</li>
 </ul>
-<p>Voit nyt valita kaikki tulokset (vie osoitin soluun <code>A1</code> ja paina <code>Ctrl + oikea</code> valitaksesi seuraavat sarakkeet, ja sitten <code>Ctrl + alas</code> valitaksesi kaikki rivit) ja kopioida ne suoraan tulostaulukkoosi.</p>
+<p>Voit nyt valita kaikki tulokset (vie osoitin soluun <code>A1</code> ja paina <code>Ctrl + oikea</code> valitaksesi seuraavat sarakkeet, ja sitten <code>Ctrl + alas</code> valitaksesi kaikki rivit) ja kopioida ne suoraan tulostaulukkoosi. Muista liittää ne toiminnolla “Liitä arvot”.</p>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -631,6 +662,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./tiet-base.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Bielefeld Academic Search Engine (BASE)</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->

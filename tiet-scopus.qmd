@@ -91,4 +91,4 @@ Latauksessa kestää pieni hetki, mutta lopussa saat ladattuihin tiedostoihisi `
 
 -   Poista joko `Link`- tai `DOI`-sarake. Molemmat antavat linkin artikkelin verkkosijaintiin; `Link` osoittaa Scopuksen omaan metadatakirjaukseen, kun taas `DOI` tulee ohjaamaan artikkelin alkuperäiseen sijaintiin.
 
-Voit nyt valita kaikki tulokset (vie osoitin soluun `A1` ja paina `Ctrl + oikea` valitaksesi seuraavat sarakkeet, ja sitten `Ctrl + alas` valitaksesi kaikki rivit) ja kopioida ne suoraan tulostaulukkoosi.
+Voit nyt valita kaikki tulokset (vie osoitin soluun `A1` ja paina `Ctrl + oikea` valitaksesi seuraavat sarakkeet, ja sitten `Ctrl + alas` valitaksesi kaikki rivit) ja kopioida ne suoraan tulostaulukkoosi. Muista liittää ne toiminnolla "Liitä arvot".

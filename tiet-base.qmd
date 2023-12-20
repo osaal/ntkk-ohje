@@ -1,0 +1,122 @@
+# Bielefeld Academic Search Engine (BASE) {#sec-tiet-base}
+
+**Osoite:** <https://www.base-search.net/>
+
+**Sisältö**: Yleinen tutkimuskirjallisuus
+
+**Saatavuus:** Avoimesti saatavilla (mutta julkaisut voivat olla rajattuja)
+
+**Aineistotyyppi**: Vertaisarvioitu tutkimusraportti, harmaa kirjallisuus
+
+**Alusta:** Itse kehitetty
+
+**Huomioita**: BASE:sta haetaan vain vertaisarvioituja tutkimusraportteja.
+
+![BASE-hakukoneen Advanced search -toiminto. Haut määritellään ylävasemmalla, julkaisutyypit yläoikealla, muut rajaukset alla.](pics/base_edistynythaku.png){#fig-base-edistynythaku fig-align="center"}
+
+Kun menet BASE-koneen sivulle, näet ensin perushaun. Voit suosiolla heti vaihtaa edistyneeseen hakuun painamalla "Advanced search" yläpalkista (@fig-base-edistynythaku).
+
+## Hakulausekkeen muodostaminen
+
+BASE käyttää seuraavia hakusääntöjä:
+
+-   Boolen algebrasanat `AND`, `OR` ja `NOT` toimivat kuten yleensä. Huomaa kuitenkin, että BASE kirjoittaa sanat pienillä kirjaimilla: `and, or, not`.
+
+-   Villikorteista vain asteriski `*` toimii; asteriski korvaa kuinka monta merkkiä tahansa. Asteriskin käyttö sammuttaa myös sanavastaavuushaun.
+
+-   Hakuasetuksissa voi asettaa joko sanatarkan haun (verbatim search), sanamuotojen laajennuksen (additional word forms) tai monikielisen haun (multi-lingual search). **Valitse sanatarkka haku!**
+
+-   BASE:n hakulausekkeessa voi käyttää seuraavia kenttähakuja yleishaussa:
+
+    -   `tit:` Hakee otsikoista. Tällä hetkellä näyttää kuitenkin siltä, ettei BASE:n otsikkohaku toimi ollenkaan. **Älä siis käytä tätä**.
+
+    -   `subj:` Hakee erilaisista ei-kokotekstimääritelmistä. Tämän dokumentointi on hyvin hankalaa, koska BASE kattaa monia erityyppisiä tietokantoja.
+
+    -   `year:` Suorittaa aikarajauksen. Aikarajaus voidaan määritellä haarukkana: `year:[YYYY TO YYYY]`.
+
+    -   `lang:` Suorittaa kielirajauksen. Kieli määritellään kaksimerkkisellä kielikoodilla, esimerkiksi vain englanti: `lang:en`. Rajauksen voi myös tehdä jälkikäteen, mitä BASE suosittelee.
+
+    -   Edistyneessä haussa kenttärajaukset tehdään pudotusvalikoilla, mutta samat säännöt koskevat näitä muuten.
+
+Esimerkkinä suoritin seuraavan haun:
+
+`("fire rescue*" OR fire*fighter* OR "rescue service*" OR "emergency respon*" OR "emergency personnel" OR "medic" OR "emergency medic*" OR "ambulance") AND (discriminat* OR harass* OR violen* OR "improper behavio*r" OR "equali*" OR equit*)`
+
+Edistyneessä haussa käytin kuvassa näkyviä asetuksia:
+
+![BASE-hakukoneen edistynyt haku esimerkkitäytettynä.](pics/base_edistynythakutaytetty.png){#fig-base-edistynythakutaytetty fig-align="center"}
+
+Kuvassa X näkyy seuraavat asetukset:
+
+-   Hakulauseke on asetettu **Entire document** -hakuun.
+-   Tulosten määrä on vaihdettu sataan tulokseen per sivu
+-   Täppä on poistettu kohdasta **Boost open access documents**
+-   Maantieteellinen rajaus on tehty Eurooppaan (**Content providers**)
+-   Aikarajaus on tehty vuosille 2010-2023 (**Publication Year**)
+-   Dokumenttityyppi on rajattu vain kirjoihin ja aikakauslehtiartikkeleihin (**Document Type**)
+-   Lisenssimuotoja en ole muuttanut.
+
+Tuloksia tuli 195 kappaletta yhteensä, mikä on jo hyvin käsiteltävä määrä itsessään. Laitan kuitenkin vielä kielirajauksen vasemmasta palkista: `Language > English`.
+
+![BASE-hakukoneessa tehty haku. Olen lisännyt kielirajauksen oikealta olevasta palkista, mikä näkyy "Remove Filters"-osion alla.](pics/base_tulosnakyma.png){#fig-base-tulosnakyma fig-align="center"}
+
+Kun olet tyytyväinen tulosten määrän, voit lähteä lataamaan niitä koneellesi.
+
+**Muista ensin dokumentoida hakusi suoritteen!**
+
+## Tulosten lataaminen
+
+**BASE:ssa joudutaan lataamaan korkeintaan sata tulosta kerralla, ja tulokset ladataan JSON-muotoon.** Näitä pitää erikseen työstää Excelissä, jotta saadaan ne taulukkomuotoon.
+
+-   Aloita lataamalla kaikki tulokset koneellesi.
+
+    -   Sivun lopussa, laita täppä kohtaan **All Records**
+    -   Valitse pudotusvalikosta **JSON** ja paina vieressä olevaa nuoli-ikonia.
+    -   Latauksen valmistelu kestää BASE:n servereillä suhteellisen kauan (minuutteja), odota rauhassa kunnes sivu on ladannut koneellesi JSON-tiedosto.
+    -   Toista prosessi jokaiselle sivulle!
+
+-   Avaa tyhjä Excel-taulukko.
+
+-   Valitse `Tiedot > Nouda tiedot > Tiedostosta > Kohteesta JSON`.
+
+-   Valitse ensimmäinen ladattu tiedostosi ja paina `Tuo`.
+
+-   Sinulle avautuu Excelin **Power Query** -editori:
+
+![Excelin Power Query -ikkuna. Vasemmalla puolella näet avoimet kyselyt (haettavat tiedostot), keskellä näet nykyisen formatointinäkymän ja oikealla puolella näet muokkausvaiheet. Voit siirtyä eteenpäin ja taaksepäin historiassa muokkausvaihenäkymässä. Yläpalkissa tulee löytymään monia nappeja ja asetuksia joita käytetään JSON-tiedoston oikeassa formatoinnissa taulukkomuotoon.](pics/excel_powerquery.png){#fig-excel-powerquery fig-align="center"}
+
+**Toista seuraava prosessi jokaiselle tiedostolle.**
+
+-   Löydä rivi **records** ja paina siinä olevaa **List**-tekstiä. Kuvaruutu muuttuu pitkäksi taulukoksi.
+
+-   Ylhäällä olevasta valintabannerista, paina **Taulukkoon**-nappia. Esille tulevassa ruudussa, älä muuta mitään ja paina vain **OK**.
+
+-   Löydä sarake **Column1** ja paina sen oikeassa laidassa olevaa kahden nuolen kuvaketta. Esille tulevassa ruudussa, älä muuta mitään ja paina vain **OK**.
+
+-   Paina uudestaan kahden nuolen kuvaketta. Valitse listasta vain seuraavat: **title, publicationDate, url**. Paina **OK**.
+
+-   Lisätäksesi seuraavan tiedoston: Ylhäällä olevasta valintabannerista, valitse `Aloitus > Uusi lähde > Tiedosto > JSON`. Löydä seuraava tiedosto ja paina **Tuo**. Aloita formatointi uudestaan
+
+Toista yllä oleva prosessi kunnes kaikki ladatut tiedostot ovat listattuna Power Query -ikkunan vasemmassa palkissa. Seuraavaksi yhdistetään kaikki tiedostot yhdeksi:
+
+-   Valitse ensimmäinen kysely listasta.
+
+-   Navigoi `Aloitus > Yhdistä > Liitä kyselyt loppuun`
+
+-   Valitse joko "Kaksi taulukkoa" (jos latasit vain kaksi tiedostoa) tai "Vähintään kolme taulukkoa" (jos latasit useamman kuin kaksi).
+
+    -   Jos valitsit "Kaksi taulukkoa": Valitse toinen tiedosto listalta (eli se, jonka latasit ja käsittelit toiseksi).
+
+    -   Jos valitsit "Vähintään kolme taulukkoa": Varmista, että kaikki tiedostot löytyvät nimettyinä **Liitettävät taulukot** -alueelta.
+
+-   Paina **OK**. Excel liittää nyt kaikki muut tiedostot ensimmäisen tiedoston taulukkoon.
+
+-   Valitse ensimmäinen kysely listalta.
+
+-   Valintabannerista, paina **Sulje ja lataa**.
+
+Excel tekee yhden välilehden jokaiselle taulukolle. Koska me yhdistimme muiden taulukoiden tulokset ensimmäiseen, sinun tulee kopioida **vain** ensimmäisen taulukon välilehden tuloksiisi (@fig-excel-jsonkasitelty).
+
+![Excel-taulukko, josta näkyy käsitellyt JSON-tiedostot Power Query-toiminnon jälkeen. Excel tekee automaattisen Power-taulukon, mutta me voimme yksinkertaisesti vain kopioida tiedot tulostaulukkoomme.](pics/excel_jsonkasitelty.png){#fig-excel-jsonkasitelty fig-align="center"}
+
+Voit nyt valita kaikki tulokset (vie osoitin soluun `A1` ja paina `Ctrl + oikea` valitaksesi seuraavat sarakkeet, ja sitten `Ctrl + alas` valitaksesi kaikki rivit) ja kopioida ne suoraan tulostaulukkoosi. Muista liittää ne toiminnolla "Liitä arvot".

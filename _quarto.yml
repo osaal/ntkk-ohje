@@ -24,6 +24,8 @@ book:
       - tiet-scopus.qmd
       - tiet-webofscience.qmd
       - tiet-proquest.qmd
+      - tiet-base.qmd
+      - tiet-openalex.qmd
     - hakeminen.qmd
     - dokumentointi.qmd
     - hakulausekkeet.qmd
@@ -63,6 +65,8 @@ book:
         - tiet-scopus.qmd
         - tiet-webofscience.qmd
         - tiet-proquest.qmd
+        - tiet-base.qmd
+        - tiet-openalex.qmd
         
     - id: hakeminen
       title: "Hakujen suorittaminen"

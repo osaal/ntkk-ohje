@@ -108,6 +108,6 @@ Suosittelen, että säästät vain sarakkeet `Article Title`, `Publication Year`
 
 ![Web of Science -palvelusta haetut tulokset Excelissä. Näkymässä on jäljellä vain Article Title sekä DOI Link. Nämä voidaan kopioida sellaisinaan osahaun tulos-Exceliin.](pics/webofscience_tuloksetexcelissä.png){fig-align="center"}
 
-Voit valita kaikki tulokset (vie osoitin soluun `A1` ja paina `Ctrl + oikea` valitaksesi kaikki sarakkeet, ja sitten `Ctrl + alas` valitaksesi kaikki rivit) ja kopioida ne suoraan tulostaulukkoosi.
+Voit nyt valita kaikki tulokset (vie osoitin soluun `A1` ja paina `Ctrl + oikea` valitaksesi seuraavat sarakkeet, ja sitten `Ctrl + alas` valitaksesi kaikki rivit) ja kopioida ne suoraan tulostaulukkoosi. Muista liittää ne toiminnolla "Liitä arvot".
 
 **Muista toistaa prosessi molemmille tietokannoille (Web of Science Core Collection ja MEDLINE)**.
