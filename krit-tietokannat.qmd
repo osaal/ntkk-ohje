@@ -3,19 +3,15 @@
 Käytämme hankkeessa seuraavia hakukoneita ja tietokantoja:
 
 -   Yhdistysten ja yhteisöjen julkaisukanavat
-
     -   Suomen Pelastusalan Keskusjärjestö SPEK
     -   Pelastusopisto
     -   Poliisiammattikorkeakoulu Polamk
     -   Valto - Valtioneuvoston yhteinen julkaisuarkisto
-
+    -   Julkari - STM:n hallinnonalan avoin julkaisuarkisto
 -   Korkeakoulujen opinnäytteiden julkaisukanavat
-
     -   Theseus - ammattikorkeakoulujen julkaisukanavat
     -   Yliopistojen julkaisukanavat
-
 -   Tieteelliset hakukoneet
-
     -   Scopus
     -   Web of Science
     -   ProQuest
@@ -36,6 +32,8 @@ Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteit�
 
 **Aineistotyyppi:** Ei-vertaisarvioitu yhdistyksen tutkimusraportti
 
+**Huomioita:** Kahlataan läpi käsin.
+
 ## Pelastusopiston julkaisut {#sec-pelastusopiston-julkaisut}
 
 **Osoite:** <https://www.pelastusopisto.fi/kirjasto-ja-tietopalvelut/julkaisut-ja-aineistot/>
@@ -45,6 +43,8 @@ Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteit�
 **Sisältö:** Pelastusopiston tutkimus-, kehittämis- ja innovaatiopalveluiden omat tutkimusraportit
 
 **Aineistotyyppi:** Ei-vertaisarvioitu viranomaisen tutkimusraportti (pl. palo- ja turvallisuustutkimuksen vuosikirja, joka on vertaisarvioitu).
+
+**Huomioita:** Kahlataan läpi käsin. Huomioi erikseen myös palo- ja pelastustutkimuksen vuosikirja.
 
 ## Polamk:in julkaisut {#sec-polamkin-julkaisut}
 
@@ -56,7 +56,7 @@ Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteit�
 
 **Aineistotyyppi:** Ei-vertaisarvioitu viranomaisen tutkimusraportti
 
-**Huomioita:** Tämä julkaisukanava ei sisällä Polamk:in opinnäytteitä, eikä näitä julkaisuja löydy Theseus-hakukoneen kautta.
+**Huomioita:** Tämä julkaisukanava ei sisällä Polamk:in opinnäytteitä, eikä näitä julkaisuja löydy Theseus-hakukoneen kautta. Kahlataan läpi käsin.
 
 ## Valtioneuvoston yhteinen julkaisuarkisto Valto {#sec-valtioneuvoston-yhteinen-julkaisuarkisto-valto}
 
@@ -68,7 +68,23 @@ Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteit�
 
 **Aineistotyyppi:** Ei-vertaisarvioitu viranomaisen tutkimusraportti
 
-**Huomioita:** Julkaisukanava sisältää jokaisen ministeriön, valtioneuvoston, valtioneuvoston kanslian, kehityspoliittisen toimikunnan, lapsiasiavaltuutetun toimiston sekä tasa-arvoasiain neuvottelukunnan julkaisut. Kaikki näistä eivät ole relevantteja hankkeen kannalta, mutta ei myöskään tule luultavasti tuottamaan hakutuloksia. Rajauksia ei siten tarvitse erikseen tehdä.
+**Alusta:** DSpace-pohjainen
+
+**Huomioita:** Julkaisukanava sisältää jokaisen ministeriön, valtioneuvoston, valtioneuvoston kanslian, kehityspoliittisen toimikunnan, lapsiasiavaltuutetun toimiston sekä tasa-arvoasiain neuvottelukunnan julkaisut. Kaikki näistä eivät ole relevantteja hankkeen kannalta, mutta ei myöskään tule luultavasti tuottamaan hakutuloksia. Rajauksia ei siten tarvitse erikseen tehdä. Nämä kahlataan pääsääntöisesti läpi käsin. Jos tuloksia on erittäin paljon, käytetään API-menetelmää.
+
+## STM:n hallinnonalan avoin julkaisuarkisto Julkari {#sec-stmn-hallinnonalan-avoin-julkaisuarkisto-julkari}
+
+**Osoite:** <https://www.julkari.fi/>
+
+**Saatavuus:** Avoimesti saatavilla
+
+**Sisältö:** Suomen terveysviranomaisten omat tutkimusraportit
+
+**Aineistotyyppi:** Ei-vertaisarvioitu viranomaisen tutkimusraportti
+
+**Alusta:** DSpace-pohjainen
+
+**Huomioita:** Julkaisukanava sisältää Eläketurvakeskuksen, Fimean, STUK:in, THL:n, Työterveyslaitoksen, Kansanterveyslaitoksen sekä Stakesin raporttijulkaisut. Näistä hankkeen kannalta tärkeimmät ovat TTL ja THL, mutta muut voidaan myös sisällyttää hakuun samalla. Rajauksia ei siten tarvitse erikseen tehdä. Nämä kahlataan pääsääntöisesti läpi käsin. Jos tuloksia on erittäin paljon, käytetään API-menetelmää.
 
 ## Theseus {#sec-theseus}
 
@@ -80,25 +96,20 @@ Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteit�
 
 **Aineistotyyppi:** Opinnäytetyö
 
+**Alusta:** DSpace-pohjainen
+
 **Huomioita:**
 
 -   Theseuksesta löytyy sekä opinnäytteitä että tutkimusjulkaisuja. Hankkeessa haemme vain opinnäytteitä, joten rajaus kannattaa tehdä näihin.
-
 -   Julkaisukanavasta löytyy 28 eri ammattikorkeakoulun tutkimuksia ja opinnäytteitä. Tämän pitäisi kattaa kaikki ammattikorkeakoulut Suomessa, mutta asia pitää vielä erikseen tarkistaa.
-
     -   Julkaisut voivat myös olla aikaisemmilta AMK:eilta, joita ei enää ole olemassa. Nämä löytyvät pääsääntöisesti nykyisen ammattikorkeakoulun tietokannasta. Näitä ovat Kymenlaakson AMK (Xamk 2017), Lahden AMK (LAB 2020), Mikkelin AMK (Xamk 2017), Saimaan AMK (LAB 2020), Kemi-Tornion AMK (Lapin AMK 2014), Pirkanmaan AMK (Tampereen AMK 2010) ja Rovaniemen AMK (Lapin AMK 2014).
-
 -   AMK-opinnäytteet jaetaan neljään kategoriaan. Hankkeessa haetaan tutkimuksia kaikista neljästä kategoriasta:
-
     -   AMK-opinnäytetyö (vastaa yliopiston kandidaattitutkinnon opinnäytettä)
-
     -   Ylempi AMK-opinnäytetyö (vastaa yliopiston maisteritutkinnon opinnäytettä)
-
     -   Opettaja-AMK-opinnäytetyö (ei yliopistollista vastaavuutta)
-
     -   Erikoistumisopintojen opinnäytetyö (ei yliopistollista vastaavuutta)
-
 -   Jotkut opinnäytteet voivat olla rajoitetusti saatavilla. Rajoituksina voi olla embargo (ajallisesti rajoitettu saatavuus) tai kokonaisrajaus. Näidenkin kohdalla haemme metadatan seulontaa varten, ja tarpeen vaatiessa teemme tietopyynnöt vedoten Pohjois-Suomen hallinto-oikeuden päätökseen opinnäytteiden luovuttamisesta.
+-   Nämä kahlataan pääsääntöisesti läpi käsin. Jos tuloksia on erittäin paljon, käytetään API-menetelmää.
 
 ## Yliopistojen julkaisukanavat {#sec-yliopistojen-julkaisukanavat}
 
@@ -108,28 +119,24 @@ Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteit�
 
 **Aineistotyyppi:** Opinnäytetyö
 
+**Alusta:** DSpace-pohjainen (kyllä, kaikki!)
+
 **Huomioita:**
 
 -   Kanavat sisältävät sekä opinnäytteitä että muita tutkimuksia. Hankkeessa haemme vain opinnäytteitä, joten rajaus kannattaa tehdä näihin.
-
 -   Yliopiston opinnäytteet jaetaan jopa viiteen kategoriaan. Näistä me haemme tutkimuksia kaikista viidestä kategoriasta:
-
     -   Kandidaatin tutkielmat (vastaa AMK-opinnäytetyötä)
-
     -   Pro gradu -tutkielmat (vastaa ylempää AMK-opinnäytetyötä)
-
     -   Lisensiaattityö (ei ammattikorkeakoulullista vastaavuutta)
-
     -   Väitöskirjat (ei ammattikorkeakoulullista vastaavuutta)
-
     -   Seminaarityöt (ei ammattikorkeakoulullista vastaavuutta)
-
 -   Jotkut opinnäytteet voivat olla rajoitetusti saatavilla. Rajoituksina voi olla embargo (ajallisesti rajoitettu saatavuus) tai kokonaisrajaus. Näidenkin kohdalla haemme metadatan seulontaa varten, ja tarpeen vaatiessa teemme tietopyynnöt vedoten Pohjois-Suomen hallinto-oikeuden päätökseen opinnäytteiden luovuttamisesta.
+-   Nämä kahlataan pääsääntöisesti läpi käsin. Jos tuloksia on erittäin paljon, käytetään API-menetelmää.
 
 **Osoitteet:**
 
 | Yliopisto                       | Kanavan nimi | Osoite                                                                       | Huomioita                                                                                                                            |
-|---------------------------------|--------------|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+|-------------|-------------|----------------|-------------------------------|
 | Aalto-yliopisto                 | Aaltodoc     | <https://aaltodoc.aalto.fi/?locale-attribute=fi>                             |                                                                                                                                      |
 | Helsingin yliopisto             | E-thesis     | <https://ethesis.helsinki.fi/>                                               | Saatavuus vaihtelee tiedekunnan mukaan, mutta yleisesti ottaen 2010-luvun puolen välin jälkeen julkastut tutkielmat löytyvät täältä. |
 | Itä-Suomen yliopisto            | UEF eRepo    | <https://erepo.uef.fi/>                                                      |                                                                                                                                      |
@@ -157,6 +164,8 @@ Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteit�
 
 **Aineistotyyppi:** Vertaisarvioitu tutkimusraportti, harmaa kirjallisuus
 
+**Alusta:** Itse kehitetty
+
 **Huomioita:** Scopuksessa haetaan vain vertaisarvioituja tutkimusraportteja.
 
 ## Web of Science {#sec-web-of-science}
@@ -169,10 +178,11 @@ Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteit�
 
 **Aineistotyyppi**: Vertaisarvioitu tutkimusraportti, harmaa kirjallisuus
 
+**Alusta:** Itse kehitetty
+
 **Huomioita**: Web of Sciencestä haetaan vain vertaisarvioituja tutkimusraportteja. Nämä löytyvät seuraavista tietokannoista:
 
 -   **Web of Science Core Collection** (luonnontieteet ja matematiikka, yhteiskuntatieteet, humanistiset tieteet ja taidetutkimus)
-
 -   **MEDLINE** (lääketieteet)
 
 ## ProQuest {#sec-proquest}
@@ -185,10 +195,11 @@ Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteit�
 
 **Aineistotyyppi:** Vertaisarvioitu tutkimusraportti, harmaa kirjallisuus
 
+**Alusta:** Itse kehitetty
+
 **Huomioita:** ProQuestista haetaan vain vertaisarvioituja tutkimusraportteja. Nämä löytyvät seuraavista tietokannoista:
 
 -   **Ebook Central** (monitieteelliset tutkimuskirjat; monografiat ja artikkelikokoelmat)
-
 -   **Social Science Premium Collection** (yhteiskuntatieteelliset tutkimusjulkaisut)
 
 ## Bielefeld Academic Search Engine BASE {#sec-bielefeld-academic-search-engine-base}
@@ -201,6 +212,8 @@ Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteit�
 
 **Aineistotyyppi**: Vertaisarvioitu tutkimusraportti, harmaa kirjallisuus
 
+**Alusta:** Itse kehitetty
+
 **Huomioita**: BASE:sta haetaan vain vertaisarvioituja tutkimusraportteja.
 
 ## OpenAlex {#sec-openalex}
@@ -212,5 +225,7 @@ Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteit�
 **Saatavuus:** Avoimesti saatavilla (mutta julkaisut voivat olla rajattuja)
 
 **Aineistotyyppi**: Vertaisarvioitu tutkimusraportti, harmaa kirjallisuus
+
+**Alusta:** Itse kehitetty
 
 **Huomioita**: OpenAlexista haetaan vain vertaisarvioituja tutkimusraportteja.
