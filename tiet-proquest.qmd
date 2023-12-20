@@ -1,0 +1,129 @@
+# ProQuest {#sec-tiet-proquest}
+
+**Osoite:** <https://www.proquest.com/>
+
+**Sisältö:** Yleinen tutkimuskirjallisuus
+
+**Saatavuus**: Maksumuurin takana (Polamk:illa pääsy)
+
+**Aineistotyyppi:** Vertaisarvioitu tutkimusraportti, harmaa kirjallisuus
+
+**Alusta:** Itse kehitetty
+
+**Huomioita:** ProQuestista haetaan vain vertaisarvioituja tutkimusraportteja. Nämä löytyvät seuraavista tietokannoista:
+
+-   **Ebook Central** (monitieteelliset tutkimuskirjat; monografiat ja artikkelikokoelmat)
+-   **Social Science Premium Collection** (yhteiskuntatieteelliset tutkimusjulkaisut)
+
+![ProQuest-palvelun perushaun näkymä. Yläpalkista voi vaihtaa Advanced Search -toimintoon sekä vaihtaa tietokannat Change Databases -painikkeesta.](pics/proquest_perushaku.png){#fig-proquest-perushaku fig-align="center"}
+
+Kirjautuessasi ProQuestiin näet ensimmäisenä perushaun (@fig-proquest-perushaku). Haun yläpalkista voit vaihtaa Advanced Search -hakuun, mikä toimii paremmin meidän hankkeen kannalta, sekä vaihtaa tietokannat Change Databases -napista.
+
+Aloita vaihtamalla tietokannat. Hakumme kohdistuu Ebook Centraliin sekä Social Science Premium Collectioniin, eli muut tietokannat jätetään pois.
+
+## Hakulausekkeen muodostaminen
+
+**Advanced Search -alueella** voidaan rakentaa hakulausekkeet kahdella eri tavalla: hakulaatikoissa tai yhtenäisenä hakulausekkeena **Command Line** -työkalun avulla (@fig-proquest-edistynythaku).
+
+![ProQuest -palvelun Advanced Search -hakutoiminto. Yläpalkista voi vaihtaa Command Line -työkaluun sekä nähdä kenttäkoodien ja hakutoimintojen ohjeet.](pics/proquest_edistynythaku.png){#fig-proquest-edistynythaku fig-align="center"}
+
+**ProQuest noudattaa seuraavia hakusääntöjä:**
+
+-   Kaikki välimerkit ohitetaan, esim. `.`, `,` ja `:`.
+
+-   Ns. "pysäytyssanat", kuten artikkelit `a, the, an` tai välisanat `with, for, of`, ohitetaan jos niitä ei erikseen merkitä haettavaksi.
+
+-   Diakriittiset merkinnät kuten umlautit `¨`, `´` ohitetaan. Täten `å` ja `a` ovat samat symbolit, ja hakevat myös muita kuten `á` tai `â`.
+
+-   Boolelaiset sanat `AND`, `OR` ja `NOT` toimivat kuten yleensä.
+
+-   Tulkintajärjestys boolelaisille merkeille on: ensin `AND`, sitten `OR`, sitten `NOT`.
+
+-   Sekä fraasihaku että vaihtoehtoiset kirjoitusasut merkitään lainausmerkeillä `"`. Esimerkiksi `"fire fighter"` tai `"color"`.
+
+    -   Vaihtoehtoisia kirjoitusasuja voi hakea myös lainausmerkkien ja aaltosulkujen yhdistelmällä `"``{}"`. Esimerkiksi `"``{color behavior}"` löytää `colour behavior`, `colour behaviour`, `color behaviour` ja `color behavior`.
+
+-   ProQuest tukee seuraavia villikortteja:
+
+    -   Kysymysmerkki `?`: Korvaa nollan tai yhden merkin.
+
+    -   Asteriski `*`: Korvaa 0-5 merkkiä. Huomaa lyhyempi korvausmäärä kuin muissa hakukoneissa!
+
+-   Hakua voi kohdentaa *hakukentillä*, kuten muissakin hakukoneissa. ProQuestissa voi asettaa useamman hakukentän samaan aikaan, esimerkiksi `ABSTRACT,TITLE(hakusana)` hakee sekä tiivistelmästä että otsikosta. Huomaa pilkku **ilman** välilyöntiä hakukenttien välillä! Meille tärkeät hakukentät ovat:
+
+    -   `SUMMARY`: Hakee tiivistelmistä, joko tieteellisistä formaaleista tai epäformaaleista tiivistelmistä.
+
+    -   `TITLE`: Hakee otsikosta.
+
+    -   `NOFT`: Hakee kaikkialta **paitsi** kokotekstistä.
+
+    -   `LOCATION`: Hakee maantieteellisen alueen.
+
+    -   `PUBDATE`: Hakee aikarajauksella. Rajauksen voi tehdä vuotena (`YYYY`), vuosi-kuukautena (`YYYYMM`) tai vuosi-kuukausi-päivänä (`YYYYMMDD`). Rajauksen voi tehdä haarukkana käyttämällä viivaa `-`: `PUBDATE(20100101-20230930)` hakee väliltä 1.1.2010-30.9.2023.
+
+    -   `PEER(yes)`: Hakee vain vertaisarvioituja julkaisuja.
+
+Esimerkkinä olen suorittanut seuraavan haun:
+
+`TIABSU(("fire rescue*" OR "fire?fighter*" OR "rescue service*" OR "emergency respon*" OR "emergency personnel" OR "medic" OR "emergency medic*" OR ambulance) AND (discriminat* OR harass* OR violen* OR "improper behavio?r" OR equali* OR equit*)) AND PEER(yes) AND PUBDATE(20100101-20230930)`
+
+Asetin myös ProQuestin palauttamaan sata tulosta per sivu.
+
+![ProQuest -palvelun Command Line -hakutoiminto. Ruudussa olen rakentanut hakulausekkeen; tätä varten voi käyttää ruudun yllä olevia Operators- ja Search fields -pudotusvalikoita. Result page options -lisävalikon alta voi asettaa näkyvyyteen liittyviä asetuksia. Koska rajoitan tulokset vertaisarvioituihin artikkeleihin hakulausekkeessa, en asettanut täppää ruudun alla olevaan Peer reviewed -kohtaan.](pics/proquest_commandline.png){#fig-proquest-commandline fig-align="center"}
+
+Hakusivulla voi jatkaa haun jalostamista. Tässä vaiheessa kannattaa heti laittaa täppä ruutuun "Show results outside my library's subscription", jotta kaikki tulokset (myös ne, joihin pääsy on vaikeampaa) tulevat mukaan. Koska tuloksia on tällä hetkellä hyvin paljon, asetan joitain lisärajoituksia sivupalkista käsin:
+
+-   **Source type** rajataan vain tieteellisiin julkaisuihin (`Scholarly Journals`).
+
+```{=html}
+<!-- -->
+```
+-   **Document type** rajataan seuraaviin: `Article`, `Case Study`, `Undefined` (jos kirjaukset ovat menneet väärin)
+
+-   **Language** rajataan vain englantiin.
+
+-   **Location** rajataan vain eurooppalaisiin maihin listauksen mukaan.
+
+::: callout-important
+Kun teet rajauksia useasti, joskus ProQuest pelkää että olet robotti ja vaatii CAPCHA:n täyttämistä. Seuraa ohjeita ja ProQuest palauttaa sinut hakusivulle.
+:::
+
+Lopputuloksina saan noin viisisataa tulosta, mikä kuulostaa jo järkevältä.
+
+![ProQuest -palvelun tuottamat hakutulokset. Olen rajannut yllä mainitut rajaukset sivupalkista.](pics/proquest_hakutulos1.png){#fig-proquest-hakutulos fig-align="center"}
+
+Muista tässä vaiheessa dokumentoida haku ja sen tuottamat tulokset!
+
+**Linkin hakuun** voit saada yläpalkissa olevasta painikkeesta `Save search/alert > Get search link`. Huomaa, että **linkki vanhenee vuoden jälkeen**, eli kaikki dokumentaatio pitää saada tehtyä raporttia varten ennen tätä!
+
+## Tulosten lataaminen
+
+**ProQuestista voi hakea korkeintaan 100 tulosta kerralla.** Joudut siis toistamaan prosessin useamman kerran, jos tuloksia on yli sata.
+
+Aloita valitsemalla kaikki tulokset sivulla hakutulosten yläpalkin täpästä. Paina sitten kolmen pisteen kuvaketta (All save & export options) saadaksesi enemmän, ja valitse vaihtoehdoista Microsoft Excel Format (XLS).
+
+**Content**-kohtaan, aseta "Citation & Abstract Only" (koska muita tietoa ei tarvita tässä vaiheessa). Voit myös laittaa täpän kohtaan "Deselect all items when done"; tämä auttaa seuraavien hakujen tallentamisessa. Kaikki muut asetukset voivat pysyä sellaisinaan.
+
+Vastaa mahdolliseen CAPTCHA-pyyntöön ja paina sitten **Continue**.
+
+![ProQuest -palvelun tallennusnäkymä.](pics/proquest_tallenna.png){#fig-proquest-tallenna fig-align="center"}
+
+ProQuest avaa uuden välilehden ja prosessoi hetken pyyntöä. Lopuksi koneellesi latautuu tulokset Excel-tiedostossa.
+
+**Voit tässä vaiheessa tehdä prosessin niin monta kertaa**, kuin sinulla on tuloksia ladattavana.
+
+Kun olet ladannut kaikki tulokset, voit sulkea ProQuestin ja siirtyä muotoilemaan tulokset sopivaan muotoon tulos-Exceliisi.
+
+**Tämäkin vaihe tulee toistaa jokaiselle ladatulle Excel-tiedostolle erikseen!**
+
+-   Avaa tulostiedosto.
+
+-   Poista kaikki sarakkeet paitsi: **Title, digitalObjectIdentifier, year**
+
+-   Varmista, että sarakkeet ovat samassa järjestyksessä kuin tulos-Excelissäsi.
+
+Voit nyt valita kaikki tulokset (vie osoitin soluun `A1` ja paina `Ctrl + oikea` valitaksesi seuraavat sarakkeet, ja sitten `Ctrl + alas` valitaksesi kaikki rivit) ja kopioida ne suoraan tulostaulukkoosi.
+
+::: callout-important
+ProQuest tallentaa vuosiluvun tekstinä. Jos haluat muuttaa sen luvuksi, voit joutua tekemään muunnoksen jokaiselle solulle Excelissä erikseen. Helpoin tapa tehdä tämä on valita kaikki "virheelliset" solut (Excel näyttää pienen vihreän kulman sen mielestä virheellisellä solulla) ja navigoida kohtaan `Kaavat > Kaavan tarkistaminen > Virheentarkistus`. Jokaisen virheen kohdalla voit painaa `Enter`, jolloin Excel automaattisesti muuntaa tekstin luvuksi. Voit nyt hakata Enter-nappia yhtä monta sataa kertaa, kuin sinulla on rivejä...
+:::

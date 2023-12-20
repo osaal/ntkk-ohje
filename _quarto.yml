@@ -23,6 +23,7 @@ book:
       - tietolahteet.qmd
       - tiet-scopus.qmd
       - tiet-webofscience.qmd
+      - tiet-proquest.qmd
     - hakeminen.qmd
     - dokumentointi.qmd
     - hakulausekkeet.qmd
@@ -61,6 +62,7 @@ book:
         - tietolahteet.qmd
         - tiet-scopus.qmd
         - tiet-webofscience.qmd
+        - tiet-proquest.qmd
         
     - id: hakeminen
       title: "Hakujen suorittaminen"

@@ -18,7 +18,11 @@ Käytämme hankkeessa seuraavia hakukoneita ja tietokantoja:
     -   Bielefeld Academic Search Engine BASE
     -   OpenAlex
 
-Näiden lisäksi voidaan käsin ottaa mukaan yksittäisiä tutkimuksia, jos nämä täyttävät kriteeristön ja eivät tulleet mukaan hakuprosessissa. Tällaiset lisätään erikseen tuloksiin hakuprosessin valmistuttua, ja lisäykset dokumentoidaan PRISMA-protokollan mukaisesti.
+SPEK:in, Pelastusopiston ja Polamk:in julkaisut **tehdään täysin käsin**; näillä ei ole hakukonetta, vaan pelkät julkaisulistaukset.
+
+Valton, Julkarin, Theseuksen ja yliopistojen julkaisukanavat toimivat kaikki **samalla hakukonepohjalla nimeltä DSpace**. Näin ollen ohjeista löytyy vain yksi yhtenäinen ohje näille kaikille.
+
+**Näiden lisäksi voidaan käsin ottaa mukaan yksittäisiä tutkimuksia**, jos nämä täyttävät kriteeristön ja eivät tulleet mukaan hakuprosessissa. Tällaiset lisätään erikseen tuloksiin hakuprosessin valmistuttua, ja lisäykset dokumentoidaan PRISMA-protokollan mukaisesti.
 
 Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteitä.
 

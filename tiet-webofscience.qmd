@@ -8,6 +8,8 @@
 
 **Aineistotyyppi**: Vertaisarvioitu tutkimusraportti, harmaa kirjallisuus
 
+**Alusta:** Itse kehitetty
+
 **Huomioita**: Web of Sciencestä haetaan vain vertaisarvioituja tutkimusraportteja. Käytämme seuraavia tietokantoja:
 
 -   **Web of Science Core Collection** (luonnontieteet ja matematiikka, yhteiskuntatieteet, humanistiset tieteet ja taidetutkimus)
@@ -42,7 +44,7 @@ Kirjautuessasi Web of Scienceen näet ensin perushaun näkymän (@fig-webofscien
 -   Web of Science käyttää eri *kenttäsanoja* riippuen tietokannasta. [Taulukosta -@tbl-webofscience-kenttasanat] löytyy meille tärkeimmät sanat.
 
 | Kenttäsana | Hakukohde                                                                             | Tietokanta                                                                         |
-|------------|---------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+|--------------|------------------------------|----------------------------|
 | `TI`       | Otsikkohaku                                                                           | Core Collection + MEDLINE                                                          |
 | `AB`       | Abstrakti/tiivistelmä                                                                 | Core Collection + MEDLINE                                                          |
 | `TS`       | Aihe (hakee otsikosta, abstraktista, avainsanoista ja/tai virallisista ontologioista) | Core Collection + MEDLINE (mutta toimii hieman eri tavalla riippuen tietokannasta) |

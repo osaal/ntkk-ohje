@@ -8,6 +8,8 @@
 
 **Aineistotyyppi:** Vertaisarvioitu tutkimusraportti, harmaa kirjallisuus
 
+**Alusta:** Itse kehitetty
+
 **Huomioita:** Scopuksessa haetaan vain vertaisarvioituja tutkimusraportteja.
 
 ![Scopus-palvelun perushaun näkymä](pics/scopus_perushaku.png){#fig-scopus-perushaku fig-align="center"}
