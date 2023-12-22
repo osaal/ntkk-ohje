@@ -39,7 +39,7 @@ Tee heti tässä vaiheessa ilmainen tili ProQuestiin! Ilman rekisteröitymistä 
 -   Boolelaiset sanat `AND`, `OR` ja `NOT` toimivat kuten yleensä.
 -   Tulkintajärjestys boolelaisille merkeille on: ensin `AND`, sitten `OR`, sitten `NOT`.
 -   Sekä fraasihaku että vaihtoehtoiset kirjoitusasut merkitään lainausmerkeillä `"`. Esimerkiksi `"fire fighter"` tai `"color"`.
-    -   Vaihtoehtoisia kirjoitusasuja voi hakea myös lainausmerkkien ja aaltosulkujen yhdistelmällä `"``{}"`. Esimerkiksi `"``{color behavior}"` löytää `colour behavior`, `colour behaviour`, `color behaviour` ja `color behavior`.
+    -   Vaihtoehtoisia kirjoitusasuja voi hakea myös lainausmerkkien ja aaltosulkujen yhdistelmällä ``` "``{}" ```. Esimerkiksi ``` "``{color behavior}" ``` löytää `colour behavior`, `colour behaviour`, `color behaviour` ja `color behavior`.
 -   ProQuest tukee seuraavia villikortteja:
     -   Kysymysmerkki `?`: Korvaa nollan tai yhden merkin.
     -   Asteriski `*`: Korvaa 0-5 merkkiä. Huomaa lyhyempi korvausmäärä kuin muissa hakukoneissa!

@@ -140,7 +140,7 @@ Tällä sivulla on eritelty jokaisen hakukoneen tai tietokannan erityispiirteit�
 **Osoitteet:**
 
 | Yliopisto                       | Kanavan nimi | Osoite                                                                       | Huomioita                                                                                                                            |
-|-------------|-------------|----------------|-------------------------------|
+|---------------------------------|--------------|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | Aalto-yliopisto                 | Aaltodoc     | <https://aaltodoc.aalto.fi/?locale-attribute=fi>                             |                                                                                                                                      |
 | Helsingin yliopisto             | E-thesis     | <https://ethesis.helsinki.fi/>                                               | Saatavuus vaihtelee tiedekunnan mukaan, mutta yleisesti ottaen 2010-luvun puolen välin jälkeen julkastut tutkielmat löytyvät täältä. |
 | Itä-Suomen yliopisto            | UEF eRepo    | <https://erepo.uef.fi/>                                                      |                                                                                                                                      |
