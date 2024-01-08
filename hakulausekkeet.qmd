@@ -28,7 +28,7 @@
 
 **Englanniksi:**
 
-`((fire rescue* OR fire?fighter* OR rescue service* OR emergency respon* OR emergency personnel) NOT ("medic")) AND (discriminat* OR harass* OR pressur* OR violen* OR improper behavio?r OR equal* OR non-discriminat* OR equit*)`
+`((fire rescue* OR fire?fighter* OR rescue service* OR emergency respon* OR emergency personnel) NOT ("medic")) AND (discriminat* OR harass* OR pressur* OR violen* OR improper behavio?r OR equal* OR equit*)`
 
 Sana `medic` rajataan lainausmerkeillä, koska huomattiin hakutestauksessa, että ei-sanatarkka haku tuottaa erittäin paljon epärelevanttia tulosta (lääketieteellistä tutkimusta).
 
@@ -46,7 +46,7 @@ Villikortti lauseessa `improper behavio?r` hakee sekä amerikkalaista että brit
 
 **Englanniksi:**
 
-`("medic" OR emergency medic* OR ambulance) AND (discriminat* OR harass* OR pressur* OR violen* OR improper behavio?r OR equal* OR non-discriminat* OR equit*)`
+`("medic" OR emergency medic* OR ambulance) AND (discriminat* OR harass* OR pressur* OR violen* OR improper behavio?r OR equal* OR equit*)`
 
 Sana `medic` rajataan lainausmerkeillä, koska huomattiin hakutestauksessa, että ei-sanatarkka haku tuottaa erittäin paljon epärelevanttia tulosta (lääketieteellistä tutkimusta).
 
@@ -72,6 +72,6 @@ Villikortti lauseessa `improper behavio?r` hakee sekä amerikkalaista että brit
 
 **Englanniksi:**
 
-`(police OR guard* OR defen?e contractor* OR steward OR soldier OR military personnel) AND (discriminat* OR harass* OR pressur* OR violen* OR improper behavio?r OR equal* OR non-discriminat* OR equit*)`
+`(police OR guard* OR defen?e contractor* OR steward OR soldier OR military personnel) AND (discriminat* OR harass* OR pressur* OR violen* OR improper behavio?r OR equal* OR equit*)`
 
 Villikortti `?` lauseissa `defen?e contractor*` ja `improper behavio?r` hakee sekä amerikkalaista että brittiläistä kirjoitusasua. Monet hakukoneet osaavat hakea tämän automaattisesti, jolloin kysymysmerkin voi jättää pois jos hakukone ei muuten tätä villikorttia tukisi.
